@@ -1,0 +1,480 @@
+﻿Java,Hadoop,Hive HQL,Pig,HBase,Kafka,Data Science,JavaScript,HDFS,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Database,Pig,Statistics,SQL Server,Hive HQL,Python,C++,Data Science,Java,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Java,Apache,Data Science,Python,Azure,SQL,Matlab,SAS,C++,Bigdata,Statistics,Machine Learning,Linux,,,Data mining engineer
+Apache,Java,Azure,Python,Data Science,Matlab,SQL,Bigdata,C++,SAS,Statistics,Machine Learning,Linux,,,Data mining engineer
+SQL,Python,Machine Learning,NoSQL,Matlab,C++,R,Linear Algebra and Calculus,Data Visualization,ETL,Hadoop,SAS,Data Science,,,Data Consultant
+HBase,Hive HQL,Java,Hadoop,Pig,Flume,JavaScript,Kafka,Data Science,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+HBase,Pig,Hive HQL,Hadoop,Java,Flume,HDFS,JavaScript,Data Science,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hive HQL,Hadoop,Java,HBase,Pig,JavaScript,Data Science,Kafka,Flume,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hive HQL,HBase,Java,Pig,Hadoop,JavaScript,Flume,Kafka,HDFS,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hive HQL,Java,Pig,HBase,Hadoop,JavaScript,Kafka,HDFS,Flume,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Java,Apache,Azure,Data Science,Python,SQL,Matlab,Bigdata,SAS,C++,Statistics,Machine Learning,Linux,,,Data mining engineer
+Hadoop,Pig,Java,Hive HQL,HBase,Data Science,HDFS,Kafka,JavaScript,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Python,SQL,Machine Learning,NoSQL,Matlab,R,C++,Linear Algebra and Calculus,Data Visualization,ETL,SAS,Hadoop,Data Science,,,Data Consultant
+Machine Learning,Python,NoSQL,Matlab,SQL,Linear Algebra and Calculus,R,Data Visualization,ETL,C++,Hadoop,Data Science,SAS,,,Data Consultant
+Hive HQL,Pig,Java,Hadoop,HBase,JavaScript,HDFS,Kafka,Data Science,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL Server,Database,Hive HQL,Pig,Statistics,Java,Python,Linux,C++,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Data Science,Java,Python,Azure,Apache,SAS,SQL,C++,Bigdata,Matlab,Machine Learning,Linux,Statistics,,,Data mining engineer
+NoSQL,Machine Learning,Matlab,SQL,Python,Data Visualization,Linear Algebra and Calculus,ETL,C++,R,SAS,Hadoop,Data Science,,,Data Consultant
+Data Science,Apache,Azure,Java,Python,SAS,Matlab,Bigdata,SQL,C++,Statistics,Linux,Machine Learning,,,Data mining engineer
+Hive HQL,HBase,Java,Hadoop,Pig,JavaScript,Flume,Kafka,Data Science,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Database,SQL Server,Statistics,Pig,Hive HQL,Python,Java,Data Science,C++,Linux,Machine Learning,Data Visualization,,,,Data Architect
+HBase,Java,Hive HQL,Pig,Hadoop,Flume,Kafka,JavaScript,HDFS,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Data Science,Java,Azure,Apache,Python,SAS,SQL,Bigdata,Matlab,C++,Linux,Statistics,Machine Learning,,,Data mining engineer
+Database,Statistics,Pig,Hive HQL,SQL Server,Python,Data Science,C++,Linux,Java,Machine Learning,Data Visualization,,,,Data Architect
+Java,Python,Apache,Azure,Data Science,SQL,C++,Matlab,Bigdata,SAS,Linux,Machine Learning,Statistics,,,Data mining engineer
+Pig,HBase,Hive HQL,Java,Hadoop,HDFS,Flume,JavaScript,Kafka,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Statistics,Pig,Hive HQL,Database,SQL Server,Data Science,C++,Linux,Python,Java,Machine Learning,Data Visualization,,,,Data Architect
+Matlab,SQL,Machine Learning,Python,NoSQL,ETL,C++,Linear Algebra and Calculus,R,Data Visualization,Hadoop,Data Science,SAS,,,Data Consultant
+Hadoop,Pig,HBase,Java,Hive HQL,Data Science,HDFS,Flume,Kafka,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Machine Learning,SQL,NoSQL,Python,Matlab,Linear Algebra and Calculus,C++,Data Visualization,R,ETL,Data Science,SAS,Hadoop,,,Data Consultant
+Pig,Java,HBase,Hadoop,Hive HQL,HDFS,Kafka,Flume,Data Science,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+HBase,Java,Pig,Hadoop,Hive HQL,Flume,Kafka,HDFS,Data Science,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Matlab,Machine Learning,SQL,Python,NoSQL,ETL,Linear Algebra and Calculus,C++,R,Data Visualization,Hadoop,SAS,Data Science,,,Data Consultant
+Database,Hive HQL,SQL Server,Pig,Statistics,Python,Linux,Java,C++,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Hive HQL,SQL Server,Database,Pig,Statistics,Linux,Java,Python,C++,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Machine Learning,SQL,Python,Matlab,NoSQL,Linear Algebra and Calculus,C++,R,ETL,Data Visualization,SAS,Hadoop,Data Science,,,Data Consultant
+Statistics,Pig,SQL Server,Hive HQL,Database,Data Science,C++,Java,Linux,Python,Machine Learning,Data Visualization,,,,Data Architect
+Hadoop,Pig,Hive HQL,Java,HBase,Data Science,HDFS,JavaScript,Kafka,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Java,Hadoop,HBase,Hive HQL,Pig,Kafka,Data Science,Flume,JavaScript,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL,Machine Learning,NoSQL,Python,Matlab,C++,Linear Algebra and Calculus,Data Visualization,R,ETL,SAS,Data Science,Hadoop,,,Data Consultant
+Pig,Statistics,SQL Server,Database,Hive HQL,C++,Data Science,Java,Python,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Database,Pig,Hive HQL,Statistics,SQL Server,Python,C++,Linux,Data Science,Java,Machine Learning,Data Visualization,,,,Data Architect
+Azure,Java,Python,Data Science,Apache,Bigdata,SQL,C++,SAS,Matlab,Linux,Machine Learning,Statistics,,,Data mining engineer
+NoSQL,Matlab,Python,SQL,Machine Learning,Data Visualization,ETL,R,C++,Linear Algebra and Calculus,Data Science,SAS,Hadoop,,,Data Consultant
+Hive HQL,Statistics,SQL Server,Database,Pig,Linux,Data Science,Java,Python,C++,Machine Learning,Data Visualization,,,,Data Architect
+Hadoop,HBase,Java,Hive HQL,Pig,Data Science,Flume,Kafka,JavaScript,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Machine Learning,NoSQL,Python,Matlab,SQL,Linear Algebra and Calculus,Data Visualization,R,ETL,C++,Hadoop,SAS,Data Science,,,Data Consultant
+Python,NoSQL,SQL,Machine Learning,Matlab,R,Data Visualization,C++,Linear Algebra and Calculus,ETL,Hadoop,Data Science,SAS,,,Data Consultant
+Machine Learning,NoSQL,Matlab,Python,SQL,Linear Algebra and Calculus,Data Visualization,ETL,R,C++,SAS,Hadoop,Data Science,,,Data Consultant
+SQL,Python,Machine Learning,Matlab,NoSQL,C++,R,Linear Algebra and Calculus,ETL,Data Visualization,Hadoop,Data Science,SAS,,,Data Consultant
+HBase,Hive HQL,Pig,Java,Hadoop,Flume,JavaScript,HDFS,Kafka,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Java,Apache,Python,Data Science,Azure,SQL,Matlab,C++,SAS,Bigdata,Linux,Machine Learning,Statistics,,,Data mining engineer
+Java,Python,Data Science,Azure,Apache,SQL,C++,SAS,Bigdata,Matlab,Linux,Statistics,Machine Learning,,,Data mining engineer
+Pig,Statistics,SQL Server,Hive HQL,Database,C++,Data Science,Java,Linux,Python,Machine Learning,Data Visualization,,,,Data Architect
+Hive HQL,HBase,Hadoop,Java,Pig,JavaScript,Flume,Data Science,Kafka,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Azure,Apache,Data Science,Python,Java,Bigdata,Matlab,SAS,C++,SQL,Machine Learning,Statistics,Linux,,,Data mining engineer
+Pig,Hive HQL,SQL Server,Database,Statistics,C++,Linux,Java,Python,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Java,HBase,Pig,Hadoop,Hive HQL,Kafka,Flume,HDFS,Data Science,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL Server,Pig,Database,Statistics,Hive HQL,Java,C++,Python,Data Science,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Java,Hive HQL,Pig,Hadoop,HBase,Kafka,JavaScript,HDFS,Data Science,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Azure,Python,Data Science,Apache,Java,Bigdata,C++,SAS,Matlab,SQL,Machine Learning,Linux,Statistics,,,Data mining engineer
+Hadoop,Java,HBase,Hive HQL,Pig,Data Science,Kafka,Flume,JavaScript,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Python,Apache,Data Science,Java,Azure,C++,Matlab,SAS,SQL,Bigdata,Statistics,Linux,Machine Learning,,,Data mining engineer
+Machine Learning,Python,Matlab,SQL,NoSQL,Linear Algebra and Calculus,R,ETL,C++,Data Visualization,Hadoop,Data Science,SAS,,,Data Consultant
+Machine Learning,NoSQL,SQL,Matlab,Python,Linear Algebra and Calculus,Data Visualization,C++,ETL,R,Data Science,SAS,Hadoop,,,Data Consultant
+SQL Server,Database,Pig,Hive HQL,Statistics,Java,Python,C++,Linux,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Machine Learning,SQL,NoSQL,Matlab,Python,Linear Algebra and Calculus,C++,Data Visualization,ETL,R,Data Science,Hadoop,SAS,,,Data Consultant
+NoSQL,Machine Learning,SQL,Python,Matlab,Data Visualization,Linear Algebra and Calculus,C++,R,ETL,Hadoop,Data Science,SAS,,,Data Consultant
+SQL Server,Statistics,Pig,Hive HQL,Database,Java,Data Science,C++,Linux,Python,Machine Learning,Data Visualization,,,,Data Architect
+Hadoop,HBase,Java,Pig,Hive HQL,Data Science,Flume,Kafka,HDFS,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hive HQL,HBase,Hadoop,Pig,Java,JavaScript,Flume,Data Science,HDFS,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+Java,Azure,Data Science,Python,Apache,SQL,Bigdata,SAS,C++,Matlab,Machine Learning,Statistics,Linux,,,Data mining engineer
+Pig,HBase,Hive HQL,Hadoop,Java,HDFS,Flume,JavaScript,Data Science,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL,Matlab,Machine Learning,NoSQL,Python,C++,ETL,Linear Algebra and Calculus,Data Visualization,R,SAS,Hadoop,Data Science,,,Data Consultant
+Java,Hadoop,Pig,Hive HQL,HBase,Kafka,Data Science,HDFS,JavaScript,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hive HQL,Java,Hadoop,Pig,HBase,JavaScript,Kafka,Data Science,HDFS,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hive HQL,Statistics,Database,SQL Server,Pig,Linux,Data Science,Python,Java,C++,Machine Learning,Data Visualization,,,,Data Architect
+Python,Apache,Java,Data Science,Azure,C++,Matlab,SQL,SAS,Bigdata,Statistics,Machine Learning,Linux,,,Data mining engineer
+Machine Learning,Python,SQL,NoSQL,Matlab,Linear Algebra and Calculus,R,C++,Data Visualization,ETL,Data Science,SAS,Hadoop,,,Data Consultant
+SQL,Python,NoSQL,Matlab,Machine Learning,C++,R,Data Visualization,ETL,Linear Algebra and Calculus,Hadoop,SAS,Data Science,,,Data Consultant
+Python,Apache,Java,Azure,Data Science,C++,Matlab,SQL,Bigdata,SAS,Machine Learning,Statistics,Linux,,,Data mining engineer
+Data Science,Python,Java,Azure,Apache,SAS,C++,SQL,Bigdata,Matlab,Machine Learning,Statistics,Linux,,,Data mining engineer
+Apache,Java,Azure,Data Science,Python,Matlab,SQL,Bigdata,SAS,C++,Machine Learning,Statistics,Linux,,,Data mining engineer
+Pig,Java,Hive HQL,HBase,Hadoop,HDFS,Kafka,JavaScript,Flume,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hive HQL,Java,Pig,Hadoop,HBase,JavaScript,Kafka,HDFS,Data Science,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Java,Data Science,Azure,Apache,Python,SQL,SAS,Bigdata,Matlab,C++,Statistics,Linux,Machine Learning,,,Data mining engineer
+SQL,Matlab,Python,NoSQL,Machine Learning,C++,ETL,R,Data Visualization,Linear Algebra and Calculus,Data Science,Hadoop,SAS,,,Data Consultant
+Hive HQL,Statistics,Pig,SQL Server,Database,Linux,Data Science,C++,Java,Python,Machine Learning,Data Visualization,,,,Data Architect
+HBase,Hadoop,Java,Pig,Hive HQL,Flume,Data Science,Kafka,HDFS,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+NoSQL,Python,SQL,Matlab,Machine Learning,Data Visualization,R,C++,ETL,Linear Algebra and Calculus,Data Science,SAS,Hadoop,,,Data Consultant
+Pig,SQL Server,Statistics,Hive HQL,Database,C++,Java,Data Science,Linux,Python,Machine Learning,Data Visualization,,,,Data Architect
+Pig,Java,Hive HQL,Hadoop,HBase,HDFS,Kafka,JavaScript,Data Science,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Pig,Database,Statistics,SQL Server,Hive HQL,C++,Python,Data Science,Java,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Hive HQL,Statistics,Database,Pig,SQL Server,Linux,Data Science,Python,C++,Java,Machine Learning,Data Visualization,,,,Data Architect
+SQL,Machine Learning,Matlab,NoSQL,Python,C++,Linear Algebra and Calculus,ETL,Data Visualization,R,SAS,Data Science,Hadoop,,,Data Consultant
+Database,Hive HQL,Pig,Statistics,SQL Server,Python,Linux,C++,Data Science,Java,Machine Learning,Data Visualization,,,,Data Architect
+Hive HQL,Hadoop,Java,Pig,HBase,JavaScript,Data Science,Kafka,HDFS,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Statistics,Hive HQL,Database,Pig,SQL Server,Data Science,Linux,Python,C++,Java,Machine Learning,Data Visualization,,,,Data Architect
+Database,Pig,SQL Server,Hive HQL,Statistics,Python,C++,Java,Linux,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Python,Azure,Data Science,Java,Apache,C++,Bigdata,SAS,SQL,Matlab,Linux,Statistics,Machine Learning,,,Data mining engineer
+HBase,Hive HQL,Hadoop,Pig,Java,Flume,JavaScript,Data Science,HDFS,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+Database,SQL Server,Hive HQL,Pig,Statistics,Python,Java,Linux,C++,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Pig,Hive HQL,SQL Server,Statistics,Database,C++,Linux,Java,Data Science,Python,Machine Learning,Data Visualization,,,,Data Architect
+Python,SQL,Matlab,NoSQL,Machine Learning,R,C++,ETL,Data Visualization,Linear Algebra and Calculus,SAS,Data Science,Hadoop,,,Data Consultant
+HBase,Hive HQL,Pig,Hadoop,Java,Flume,JavaScript,HDFS,Data Science,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+Python,Machine Learning,SQL,Matlab,NoSQL,R,Linear Algebra and Calculus,C++,ETL,Data Visualization,Data Science,SAS,Hadoop,,,Data Consultant
+Azure,Python,Apache,Java,Data Science,Bigdata,C++,Matlab,SQL,SAS,Statistics,Machine Learning,Linux,,,Data mining engineer
+Matlab,Python,SQL,Machine Learning,NoSQL,ETL,R,C++,Linear Algebra and Calculus,Data Visualization,SAS,Hadoop,Data Science,,,Data Consultant
+HBase,Pig,Hive HQL,Java,Hadoop,Flume,HDFS,JavaScript,Kafka,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Python,Matlab,Machine Learning,NoSQL,SQL,R,ETL,Linear Algebra and Calculus,Data Visualization,C++,Data Science,Hadoop,SAS,,,Data Consultant
+Apache,Java,Python,Data Science,Azure,Matlab,SQL,C++,SAS,Bigdata,Machine Learning,Linux,Statistics,,,Data mining engineer
+Java,Hive HQL,Pig,HBase,Hadoop,Kafka,JavaScript,HDFS,Flume,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hive HQL,Java,Hadoop,HBase,Pig,JavaScript,Kafka,Data Science,Flume,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Apache,Azure,Data Science,Python,Java,Matlab,Bigdata,SAS,C++,SQL,Statistics,Machine Learning,Linux,,,Data mining engineer
+Database,SQL Server,Pig,Statistics,Hive HQL,Python,Java,C++,Data Science,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Pig,Hive HQL,Statistics,Database,SQL Server,C++,Linux,Data Science,Python,Java,Machine Learning,Data Visualization,,,,Data Architect
+Statistics,Hive HQL,Database,SQL Server,Pig,Data Science,Linux,Python,Java,C++,Machine Learning,Data Visualization,,,,Data Architect
+NoSQL,Matlab,SQL,Python,Machine Learning,Data Visualization,ETL,C++,R,Linear Algebra and Calculus,Hadoop,SAS,Data Science,,,Data Consultant
+Hive HQL,SQL Server,Pig,Database,Statistics,Linux,Java,C++,Python,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Java,Data Science,Azure,Python,Apache,SQL,SAS,Bigdata,C++,Matlab,Machine Learning,Linux,Statistics,,,Data mining engineer
+Data Science,Azure,Apache,Python,Java,SAS,Bigdata,Matlab,C++,SQL,Linux,Machine Learning,Statistics,,,Data mining engineer
+Azure,Apache,Python,Java,Data Science,Bigdata,Matlab,C++,SQL,SAS,Statistics,Linux,Machine Learning,,,Data mining engineer
+Hive HQL,Database,Statistics,Pig,SQL Server,Linux,Python,Data Science,C++,Java,Machine Learning,Data Visualization,,,,Data Architect
+Apache,Data Science,Java,Python,Azure,Matlab,SAS,SQL,C++,Bigdata,Machine Learning,Linux,Statistics,,,Data mining engineer
+Pig,Hive HQL,Database,Statistics,SQL Server,C++,Linux,Python,Data Science,Java,Machine Learning,Data Visualization,,,,Data Architect
+Matlab,Machine Learning,NoSQL,SQL,Python,ETL,Linear Algebra and Calculus,Data Visualization,C++,R,Data Science,Hadoop,SAS,,,Data Consultant
+Database,SQL Server,Hive HQL,Statistics,Pig,Python,Java,Linux,Data Science,C++,Machine Learning,Data Visualization,,,,Data Architect
+Hive HQL,Pig,Database,Statistics,SQL Server,Linux,C++,Python,Data Science,Java,Machine Learning,Data Visualization,,,,Data Architect
+Data Science,Python,Apache,Azure,Java,SAS,C++,Matlab,Bigdata,SQL,Statistics,Machine Learning,Linux,,,Data mining engineer
+Hive HQL,Hadoop,Pig,Java,HBase,JavaScript,Data Science,HDFS,Kafka,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Data Science,Apache,Azure,Python,Java,SAS,Matlab,Bigdata,C++,SQL,Linux,Statistics,Machine Learning,,,Data mining engineer
+Matlab,NoSQL,Machine Learning,SQL,Python,ETL,Data Visualization,Linear Algebra and Calculus,C++,R,Data Science,SAS,Hadoop,,,Data Consultant
+Apache,Java,Python,Azure,Data Science,Matlab,SQL,C++,Bigdata,SAS,Statistics,Linux,Machine Learning,,,Data mining engineer
+Java,Hadoop,Pig,HBase,Hive HQL,Kafka,Data Science,HDFS,Flume,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Python,SQL,Machine Learning,Matlab,NoSQL,R,C++,Linear Algebra and Calculus,ETL,Data Visualization,Data Science,Hadoop,SAS,,,Data Consultant
+Hive HQL,HBase,Pig,Hadoop,Java,JavaScript,Flume,HDFS,Data Science,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+Pig,Hadoop,Java,HBase,Hive HQL,HDFS,Data Science,Kafka,Flume,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Apache,Java,Data Science,Python,Azure,Matlab,SQL,SAS,C++,Bigdata,Machine Learning,Statistics,Linux,,,Data mining engineer
+SQL Server,Database,Pig,Statistics,Hive HQL,Java,Python,C++,Data Science,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Azure,Python,Data Science,Java,Apache,Bigdata,C++,SAS,SQL,Matlab,Statistics,Linux,Machine Learning,,,Data mining engineer
+Python,Java,Apache,Data Science,Azure,C++,SQL,Matlab,SAS,Bigdata,Statistics,Linux,Machine Learning,,,Data mining engineer
+Hadoop,HBase,Hive HQL,Pig,Java,Data Science,Flume,JavaScript,HDFS,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL,Python,Matlab,Machine Learning,NoSQL,C++,R,ETL,Linear Algebra and Calculus,Data Visualization,Data Science,Hadoop,SAS,,,Data Consultant
+Data Science,Azure,Java,Apache,Python,SAS,Bigdata,SQL,Matlab,C++,Linux,Machine Learning,Statistics,,,Data mining engineer
+Data Science,Java,Python,Apache,Azure,SAS,SQL,C++,Matlab,Bigdata,Machine Learning,Statistics,Linux,,,Data mining engineer
+Java,Python,Azure,Apache,Data Science,SQL,C++,Bigdata,Matlab,SAS,Machine Learning,Linux,Statistics,,,Data mining engineer
+NoSQL,Machine Learning,Matlab,Python,SQL,Data Visualization,Linear Algebra and Calculus,ETL,R,C++,Hadoop,SAS,Data Science,,,Data Consultant
+Python,Data Science,Apache,Java,Azure,C++,SAS,Matlab,SQL,Bigdata,Statistics,Machine Learning,Linux,,,Data mining engineer
+Java,Azure,Apache,Python,Data Science,SQL,Bigdata,Matlab,C++,SAS,Machine Learning,Linux,Statistics,,,Data mining engineer
+SQL,Machine Learning,Matlab,Python,NoSQL,C++,Linear Algebra and Calculus,ETL,R,Data Visualization,Data Science,SAS,Hadoop,,,Data Consultant
+Database,Statistics,Hive HQL,SQL Server,Pig,Python,Data Science,Linux,Java,C++,Machine Learning,Data Visualization,,,,Data Architect
+Python,Azure,Apache,Java,Data Science,C++,Bigdata,Matlab,SQL,SAS,Machine Learning,Statistics,Linux,,,Data mining engineer
+HBase,Hadoop,Java,Hive HQL,Pig,Flume,Data Science,Kafka,JavaScript,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL Server,Statistics,Hive HQL,Pig,Database,Java,Data Science,Linux,C++,Python,Machine Learning,Data Visualization,,,,Data Architect
+SQL,NoSQL,Machine Learning,Matlab,Python,C++,Data Visualization,Linear Algebra and Calculus,ETL,R,Hadoop,SAS,Data Science,,,Data Consultant
+Azure,Java,Apache,Data Science,Python,Bigdata,SQL,Matlab,SAS,C++,Linux,Statistics,Machine Learning,,,Data mining engineer
+NoSQL,Matlab,Machine Learning,Python,SQL,Data Visualization,ETL,Linear Algebra and Calculus,R,C++,Hadoop,Data Science,SAS,,,Data Consultant
+Azure,Java,Python,Apache,Data Science,Bigdata,SQL,C++,Matlab,SAS,Statistics,Machine Learning,Linux,,,Data mining engineer
+Python,Machine Learning,Matlab,SQL,NoSQL,R,Linear Algebra and Calculus,ETL,C++,Data Visualization,Data Science,Hadoop,SAS,,,Data Consultant
+Hadoop,Hive HQL,HBase,Pig,Java,Data Science,JavaScript,Flume,HDFS,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+HBase,Pig,Java,Hive HQL,Hadoop,Flume,HDFS,Kafka,JavaScript,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Java,Pig,Hadoop,HBase,Hive HQL,Kafka,HDFS,Data Science,Flume,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Pig,Database,Hive HQL,SQL Server,Statistics,C++,Python,Linux,Java,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Java,HBase,Hive HQL,Hadoop,Pig,Kafka,Flume,JavaScript,Data Science,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+NoSQL,Matlab,Python,Machine Learning,SQL,Data Visualization,ETL,R,Linear Algebra and Calculus,C++,SAS,Data Science,Hadoop,,,Data Consultant
+Python,NoSQL,SQL,Matlab,Machine Learning,R,Data Visualization,C++,ETL,Linear Algebra and Calculus,SAS,Data Science,Hadoop,,,Data Consultant
+Hadoop,HBase,Pig,Java,Hive HQL,Data Science,Flume,HDFS,Kafka,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Python,Azure,Apache,Data Science,Java,C++,Bigdata,Matlab,SAS,SQL,Machine Learning,Linux,Statistics,,,Data mining engineer
+Azure,Java,Apache,Python,Data Science,Bigdata,SQL,Matlab,C++,SAS,Linux,Machine Learning,Statistics,,,Data mining engineer
+Apache,Python,Data Science,Azure,Java,Matlab,C++,SAS,Bigdata,SQL,Linux,Machine Learning,Statistics,,,Data mining engineer
+Hadoop,Java,Pig,HBase,Hive HQL,Data Science,Kafka,HDFS,Flume,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Matlab,SQL,NoSQL,Python,Machine Learning,ETL,C++,Data Visualization,R,Linear Algebra and Calculus,SAS,Data Science,Hadoop,,,Data Consultant
+Pig,Statistics,Hive HQL,SQL Server,Database,C++,Data Science,Linux,Java,Python,Machine Learning,Data Visualization,,,,Data Architect
+Java,Data Science,Python,Azure,Apache,SQL,SAS,C++,Bigdata,Matlab,Linux,Machine Learning,Statistics,,,Data mining engineer
+Hadoop,Hive HQL,Pig,Java,HBase,Data Science,JavaScript,HDFS,Kafka,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Azure,Data Science,Apache,Python,Java,Bigdata,SAS,Matlab,C++,SQL,Machine Learning,Linux,Statistics,,,Data mining engineer
+Machine Learning,SQL,Python,NoSQL,Matlab,Linear Algebra and Calculus,C++,R,Data Visualization,ETL,Data Science,Hadoop,SAS,,,Data Consultant
+Matlab,Python,SQL,NoSQL,Machine Learning,ETL,R,C++,Data Visualization,Linear Algebra and Calculus,Hadoop,SAS,Data Science,,,Data Consultant
+Java,Hive HQL,HBase,Pig,Hadoop,Kafka,JavaScript,Flume,HDFS,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Pig,SQL Server,Database,Statistics,Hive HQL,C++,Java,Python,Data Science,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Hadoop,Pig,Java,HBase,Hive HQL,Data Science,HDFS,Kafka,Flume,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Pig,Hive HQL,Hadoop,HBase,Java,HDFS,JavaScript,Data Science,Flume,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+Python,Matlab,SQL,NoSQL,Machine Learning,R,ETL,C++,Data Visualization,Linear Algebra and Calculus,SAS,Hadoop,Data Science,,,Data Consultant
+Hive HQL,Pig,HBase,Java,Hadoop,JavaScript,HDFS,Flume,Kafka,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Python,Azure,Java,Apache,Data Science,C++,Bigdata,SQL,Matlab,SAS,Linux,Statistics,Machine Learning,,,Data mining engineer
+Pig,SQL Server,Hive HQL,Statistics,Database,C++,Java,Linux,Data Science,Python,Machine Learning,Data Visualization,,,,Data Architect
+Java,Azure,Apache,Data Science,Python,SQL,Bigdata,Matlab,SAS,C++,Statistics,Linux,Machine Learning,,,Data mining engineer
+Statistics,SQL Server,Hive HQL,Database,Pig,Data Science,Java,Linux,Python,C++,Machine Learning,Data Visualization,,,,Data Architect
+Java,Data Science,Apache,Python,Azure,SQL,SAS,Matlab,C++,Bigdata,Statistics,Linux,Machine Learning,,,Data mining engineer
+Statistics,Database,Pig,SQL Server,Hive HQL,Data Science,Python,C++,Java,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Database,Pig,Statistics,Hive HQL,SQL Server,Python,C++,Data Science,Linux,Java,Machine Learning,Data Visualization,,,,Data Architect
+Java,HBase,Hive HQL,Pig,Hadoop,Kafka,Flume,JavaScript,HDFS,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Python,NoSQL,Machine Learning,SQL,Matlab,R,Data Visualization,Linear Algebra and Calculus,C++,ETL,SAS,Data Science,Hadoop,,,Data Consultant
+SQL,Machine Learning,NoSQL,Matlab,Python,C++,Linear Algebra and Calculus,Data Visualization,ETL,R,Hadoop,Data Science,SAS,,,Data Consultant
+Pig,HBase,Hadoop,Java,Hive HQL,HDFS,Flume,Data Science,Kafka,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+NoSQL,SQL,Machine Learning,Python,Matlab,Data Visualization,C++,Linear Algebra and Calculus,R,ETL,Hadoop,SAS,Data Science,,,Data Consultant
+Statistics,Hive HQL,Pig,Database,SQL Server,Data Science,Linux,C++,Python,Java,Machine Learning,Data Visualization,,,,Data Architect
+SQL,Machine Learning,Python,Matlab,NoSQL,C++,Linear Algebra and Calculus,R,ETL,Data Visualization,Hadoop,SAS,Data Science,,,Data Consultant
+Python,Data Science,Java,Apache,Azure,C++,SAS,SQL,Matlab,Bigdata,Linux,Machine Learning,Statistics,,,Data mining engineer
+Machine Learning,Matlab,SQL,NoSQL,Python,Linear Algebra and Calculus,ETL,C++,Data Visualization,R,Data Science,Hadoop,SAS,,,Data Consultant
+Data Science,Apache,Python,Azure,Java,SAS,Matlab,C++,Bigdata,SQL,Statistics,Linux,Machine Learning,,,Data mining engineer
+Python,Matlab,NoSQL,SQL,Machine Learning,R,ETL,Data Visualization,C++,Linear Algebra and Calculus,Hadoop,SAS,Data Science,,,Data Consultant
+SQL Server,Database,Hive HQL,Statistics,Pig,Java,Python,Linux,Data Science,C++,Machine Learning,Data Visualization,,,,Data Architect
+Python,Data Science,Azure,Java,Apache,C++,SAS,Bigdata,SQL,Matlab,Linux,Machine Learning,Statistics,,,Data mining engineer
+Apache,Data Science,Python,Azure,Java,Matlab,SAS,C++,Bigdata,SQL,Linux,Statistics,Machine Learning,,,Data mining engineer
+Matlab,NoSQL,Python,SQL,Machine Learning,ETL,Data Visualization,R,C++,Linear Algebra and Calculus,SAS,Data Science,Hadoop,,,Data Consultant
+Database,Pig,Hive HQL,SQL Server,Statistics,Python,C++,Linux,Java,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Matlab,Python,NoSQL,Machine Learning,SQL,ETL,R,Data Visualization,Linear Algebra and Calculus,C++,Data Science,Hadoop,SAS,,,Data Consultant
+Hadoop,Pig,Hive HQL,HBase,Java,Data Science,HDFS,JavaScript,Flume,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL,NoSQL,Python,Matlab,Machine Learning,C++,Data Visualization,R,ETL,Linear Algebra and Calculus,Hadoop,Data Science,SAS,,,Data Consultant
+Matlab,Machine Learning,Python,NoSQL,SQL,ETL,Linear Algebra and Calculus,R,Data Visualization,C++,Hadoop,SAS,Data Science,,,Data Consultant
+Apache,Python,Java,Data Science,Azure,Matlab,C++,SQL,SAS,Bigdata,Machine Learning,Statistics,Linux,,,Data mining engineer
+Pig,Hadoop,HBase,Hive HQL,Java,HDFS,Data Science,Flume,JavaScript,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+Machine Learning,NoSQL,SQL,Python,Matlab,Linear Algebra and Calculus,Data Visualization,C++,R,ETL,Data Science,Hadoop,SAS,,,Data Consultant
+Java,Pig,Hadoop,Hive HQL,HBase,Kafka,HDFS,Data Science,JavaScript,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Azure,Apache,Java,Data Science,Python,Bigdata,Matlab,SQL,SAS,C++,Linux,Machine Learning,Statistics,,,Data mining engineer
+Azure,Data Science,Java,Python,Apache,Bigdata,SAS,SQL,C++,Matlab,Statistics,Linux,Machine Learning,,,Data mining engineer
+Hive HQL,Hadoop,Pig,HBase,Java,JavaScript,Data Science,HDFS,Flume,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+Apache,Data Science,Python,Java,Azure,Matlab,SAS,C++,SQL,Bigdata,Linux,Machine Learning,Statistics,,,Data mining engineer
+Python,SQL,NoSQL,Machine Learning,Matlab,R,C++,Data Visualization,Linear Algebra and Calculus,ETL,Hadoop,SAS,Data Science,,,Data Consultant
+Machine Learning,Matlab,NoSQL,Python,SQL,Linear Algebra and Calculus,ETL,Data Visualization,R,C++,SAS,Data Science,Hadoop,,,Data Consultant
+Pig,Hadoop,Java,Hive HQL,HBase,HDFS,Data Science,Kafka,JavaScript,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL Server,Pig,Statistics,Database,Hive HQL,Java,C++,Data Science,Python,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Hadoop,Hive HQL,Java,Pig,HBase,Data Science,JavaScript,Kafka,HDFS,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Pig,Java,Hadoop,Hive HQL,HBase,HDFS,Kafka,Data Science,JavaScript,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Python,Java,Azure,Apache,Data Science,C++,SQL,Bigdata,Matlab,SAS,Linux,Machine Learning,Statistics,,,Data mining engineer
+Python,Machine Learning,NoSQL,Matlab,SQL,R,Linear Algebra and Calculus,Data Visualization,ETL,C++,Data Science,Hadoop,SAS,,,Data Consultant
+Pig,SQL Server,Database,Hive HQL,Statistics,C++,Java,Python,Linux,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Java,Data Science,Python,Apache,Azure,SQL,SAS,C++,Matlab,Bigdata,Statistics,Machine Learning,Linux,,,Data mining engineer
+Pig,Database,SQL Server,Statistics,Hive HQL,C++,Python,Java,Data Science,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Python,Java,Apache,Azure,Data Science,C++,SQL,Matlab,Bigdata,SAS,Machine Learning,Linux,Statistics,,,Data mining engineer
+Hive HQL,HBase,Pig,Java,Hadoop,JavaScript,Flume,HDFS,Kafka,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL Server,Statistics,Hive HQL,Database,Pig,Java,Data Science,Linux,Python,C++,Machine Learning,Data Visualization,,,,Data Architect
+Hive HQL,SQL Server,Statistics,Pig,Database,Linux,Java,Data Science,C++,Python,Machine Learning,Data Visualization,,,,Data Architect
+Hive HQL,SQL Server,Pig,Statistics,Database,Linux,Java,C++,Data Science,Python,Machine Learning,Data Visualization,,,,Data Architect
+Python,Machine Learning,NoSQL,SQL,Matlab,R,Linear Algebra and Calculus,Data Visualization,C++,ETL,SAS,Hadoop,Data Science,,,Data Consultant
+Data Science,Python,Java,Apache,Azure,SAS,C++,SQL,Matlab,Bigdata,Machine Learning,Linux,Statistics,,,Data mining engineer
+Hive HQL,Java,HBase,Pig,Hadoop,JavaScript,Kafka,Flume,HDFS,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Python,Machine Learning,Matlab,NoSQL,SQL,R,Linear Algebra and Calculus,ETL,Data Visualization,C++,Data Science,SAS,Hadoop,,,Data Consultant
+Python,Apache,Azure,Java,Data Science,C++,Matlab,Bigdata,SQL,SAS,Machine Learning,Linux,Statistics,,,Data mining engineer
+HBase,Hadoop,Pig,Hive HQL,Java,Flume,Data Science,HDFS,JavaScript,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL Server,Pig,Statistics,Hive HQL,Database,Java,C++,Data Science,Linux,Python,Machine Learning,Data Visualization,,,,Data Architect
+Python,Matlab,NoSQL,Machine Learning,SQL,R,ETL,Data Visualization,Linear Algebra and Calculus,C++,Hadoop,Data Science,SAS,,,Data Consultant
+Statistics,Pig,Database,SQL Server,Hive HQL,Data Science,C++,Python,Java,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Machine Learning,SQL,Matlab,Python,NoSQL,Linear Algebra and Calculus,C++,ETL,R,Data Visualization,SAS,Data Science,Hadoop,,,Data Consultant
+Java,Apache,Data Science,Azure,Python,SQL,Matlab,SAS,Bigdata,C++,Linux,Machine Learning,Statistics,,,Data mining engineer
+Data Science,Python,Azure,Apache,Java,SAS,C++,Bigdata,Matlab,SQL,Statistics,Linux,Machine Learning,,,Data mining engineer
+Hive HQL,Pig,Statistics,Database,SQL Server,Linux,C++,Data Science,Python,Java,Machine Learning,Data Visualization,,,,Data Architect
+Python,NoSQL,Machine Learning,Matlab,SQL,R,Data Visualization,Linear Algebra and Calculus,ETL,C++,Data Science,SAS,Hadoop,,,Data Consultant
+Pig,Statistics,Database,SQL Server,Hive HQL,C++,Data Science,Python,Java,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Database,SQL Server,Statistics,Hive HQL,Pig,Python,Java,Data Science,Linux,C++,Machine Learning,Data Visualization,,,,Data Architect
+Hive HQL,Database,Statistics,SQL Server,Pig,Linux,Python,Data Science,Java,C++,Machine Learning,Data Visualization,,,,Data Architect
+Statistics,Database,SQL Server,Hive HQL,Pig,Data Science,Python,Java,Linux,C++,Machine Learning,Data Visualization,,,,Data Architect
+Pig,HBase,Java,Hadoop,Hive HQL,HDFS,Flume,Kafka,Data Science,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Statistics,Pig,Hive HQL,SQL Server,Database,Data Science,C++,Linux,Java,Python,Machine Learning,Data Visualization,,,,Data Architect
+SQL Server,Pig,Hive HQL,Database,Statistics,Java,C++,Linux,Python,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Statistics,Database,Hive HQL,SQL Server,Pig,Data Science,Python,Linux,Java,C++,Machine Learning,Data Visualization,,,,Data Architect
+Java,HBase,Pig,Hive HQL,Hadoop,Kafka,Flume,HDFS,JavaScript,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Java,HBase,Hadoop,Pig,Hive HQL,Kafka,Flume,Data Science,HDFS,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Matlab,Machine Learning,SQL,NoSQL,Python,ETL,Linear Algebra and Calculus,C++,Data Visualization,R,Hadoop,Data Science,SAS,,,Data Consultant
+Azure,Data Science,Python,Apache,Java,Bigdata,SAS,C++,Matlab,SQL,Machine Learning,Statistics,Linux,,,Data mining engineer
+Pig,Java,HBase,Hive HQL,Hadoop,HDFS,Kafka,Flume,JavaScript,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Azure,Python,Java,Data Science,Apache,Bigdata,C++,SQL,SAS,Matlab,Linux,Statistics,Machine Learning,,,Data mining engineer
+Matlab,NoSQL,SQL,Python,Machine Learning,ETL,Data Visualization,C++,R,Linear Algebra and Calculus,SAS,Hadoop,Data Science,,,Data Consultant
+SQL,Matlab,Machine Learning,Python,NoSQL,C++,ETL,Linear Algebra and Calculus,R,Data Visualization,Data Science,Hadoop,SAS,,,Data Consultant
+Statistics,Pig,Database,Hive HQL,SQL Server,Data Science,C++,Python,Linux,Java,Machine Learning,Data Visualization,,,,Data Architect
+Statistics,Database,Hive HQL,Pig,SQL Server,Data Science,Python,Linux,C++,Java,Machine Learning,Data Visualization,,,,Data Architect
+Hive HQL,Hadoop,HBase,Pig,Java,JavaScript,Data Science,Flume,HDFS,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hive HQL,Pig,SQL Server,Database,Statistics,Linux,C++,Java,Python,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Java,Azure,Data Science,Apache,Python,SQL,Bigdata,SAS,Matlab,C++,Statistics,Machine Learning,Linux,,,Data mining engineer
+HBase,Hadoop,Pig,Java,Hive HQL,Flume,Data Science,HDFS,Kafka,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Statistics,Hive HQL,Pig,SQL Server,Database,Data Science,Linux,C++,Java,Python,Machine Learning,Data Visualization,,,,Data Architect
+Hive HQL,Pig,Database,SQL Server,Statistics,Linux,C++,Python,Java,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Matlab,Python,Machine Learning,SQL,NoSQL,ETL,R,Linear Algebra and Calculus,C++,Data Visualization,SAS,Data Science,Hadoop,,,Data Consultant
+Statistics,Hive HQL,SQL Server,Database,Pig,Data Science,Linux,Java,Python,C++,Machine Learning,Data Visualization,,,,Data Architect
+Hive HQL,Pig,HBase,Hadoop,Java,JavaScript,HDFS,Flume,Data Science,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+HBase,Hive HQL,Hadoop,Java,Pig,Flume,JavaScript,Data Science,Kafka,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hadoop,Hive HQL,Pig,HBase,Java,Data Science,JavaScript,HDFS,Flume,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+Java,Python,Data Science,Apache,Azure,SQL,C++,SAS,Matlab,Bigdata,Statistics,Linux,Machine Learning,,,Data mining engineer
+Apache,Data Science,Java,Azure,Python,Matlab,SAS,SQL,Bigdata,C++,Machine Learning,Statistics,Linux,,,Data mining engineer
+Database,Hive HQL,Pig,SQL Server,Statistics,Python,Linux,C++,Java,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+HBase,Pig,Hadoop,Java,Hive HQL,Flume,HDFS,Data Science,Kafka,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Python,Java,Azure,Data Science,Apache,C++,SQL,Bigdata,SAS,Matlab,Statistics,Machine Learning,Linux,,,Data mining engineer
+Matlab,Python,NoSQL,SQL,Machine Learning,ETL,R,Data Visualization,C++,Linear Algebra and Calculus,SAS,Hadoop,Data Science,,,Data Consultant
+Matlab,Python,Machine Learning,NoSQL,SQL,ETL,R,Linear Algebra and Calculus,Data Visualization,C++,Hadoop,Data Science,SAS,,,Data Consultant
+Hadoop,Java,Hive HQL,HBase,Pig,Data Science,Kafka,JavaScript,Flume,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL Server,Hive HQL,Statistics,Pig,Database,Java,Linux,Data Science,C++,Python,Machine Learning,Data Visualization,,,,Data Architect
+Java,Pig,HBase,Hive HQL,Hadoop,Kafka,HDFS,Flume,JavaScript,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Java,Python,Azure,Data Science,Apache,SQL,C++,Bigdata,SAS,Matlab,Machine Learning,Statistics,Linux,,,Data mining engineer
+Hive HQL,Database,SQL Server,Statistics,Pig,Linux,Python,Java,Data Science,C++,Machine Learning,Data Visualization,,,,Data Architect
+SQL Server,Statistics,Database,Hive HQL,Pig,Java,Data Science,Python,Linux,C++,Machine Learning,Data Visualization,,,,Data Architect
+Statistics,Database,SQL Server,Pig,Hive HQL,Data Science,Python,Java,C++,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Matlab,NoSQL,SQL,Machine Learning,Python,ETL,Data Visualization,C++,Linear Algebra and Calculus,R,Data Science,Hadoop,SAS,,,Data Consultant
+Java,Hadoop,Hive HQL,HBase,Pig,Kafka,Data Science,JavaScript,Flume,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hive HQL,Statistics,SQL Server,Pig,Database,Linux,Data Science,Java,C++,Python,Machine Learning,Data Visualization,,,,Data Architect
+HBase,Java,Pig,Hive HQL,Hadoop,Flume,Kafka,HDFS,JavaScript,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Machine Learning,NoSQL,Python,SQL,Matlab,Linear Algebra and Calculus,Data Visualization,R,C++,ETL,Hadoop,Data Science,SAS,,,Data Consultant
+NoSQL,Matlab,SQL,Machine Learning,Python,Data Visualization,ETL,C++,Linear Algebra and Calculus,R,Hadoop,Data Science,SAS,,,Data Consultant
+Apache,Python,Azure,Data Science,Java,Matlab,C++,Bigdata,SAS,SQL,Statistics,Machine Learning,Linux,,,Data mining engineer
+Apache,Azure,Python,Data Science,Java,Matlab,Bigdata,C++,SAS,SQL,Statistics,Linux,Machine Learning,,,Data mining engineer
+NoSQL,Python,Matlab,Machine Learning,SQL,Data Visualization,R,ETL,Linear Algebra and Calculus,C++,SAS,Hadoop,Data Science,,,Data Consultant
+Pig,Database,SQL Server,Hive HQL,Statistics,C++,Python,Java,Linux,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Azure,Data Science,Python,Java,Apache,Bigdata,SAS,C++,SQL,Matlab,Statistics,Machine Learning,Linux,,,Data mining engineer
+Pig,Statistics,Database,Hive HQL,SQL Server,C++,Data Science,Python,Linux,Java,Machine Learning,Data Visualization,,,,Data Architect
+Matlab,SQL,Python,NoSQL,Machine Learning,ETL,C++,R,Data Visualization,Linear Algebra and Calculus,Hadoop,Data Science,SAS,,,Data Consultant
+Python,Apache,Azure,Data Science,Java,C++,Matlab,Bigdata,SAS,SQL,Machine Learning,Statistics,Linux,,,Data mining engineer
+Pig,Hive HQL,Java,Hadoop,HBase,HDFS,JavaScript,Kafka,Data Science,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Java,Pig,Hive HQL,Hadoop,HBase,Kafka,HDFS,JavaScript,Data Science,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Database,Statistics,SQL Server,Hive HQL,Pig,Python,Data Science,Java,Linux,C++,Machine Learning,Data Visualization,,,,Data Architect
+Java,Hive HQL,HBase,Hadoop,Pig,Kafka,JavaScript,Flume,Data Science,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Python,Java,Data Science,Azure,Apache,C++,SQL,SAS,Bigdata,Matlab,Statistics,Linux,Machine Learning,,,Data mining engineer
+NoSQL,Machine Learning,Python,Matlab,SQL,Data Visualization,Linear Algebra and Calculus,R,ETL,C++,SAS,Hadoop,Data Science,,,Data Consultant
+Apache,Azure,Java,Python,Data Science,Matlab,Bigdata,SQL,C++,SAS,Statistics,Linux,Machine Learning,,,Data mining engineer
+Python,Matlab,SQL,Machine Learning,NoSQL,R,ETL,C++,Linear Algebra and Calculus,Data Visualization,Hadoop,SAS,Data Science,,,Data Consultant
+HBase,Hadoop,Hive HQL,Java,Pig,Flume,Data Science,JavaScript,Kafka,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Database,SQL Server,Pig,Hive HQL,Statistics,Python,Java,C++,Linux,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Hadoop,Java,HBase,Pig,Hive HQL,Data Science,Kafka,Flume,HDFS,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Pig,Hive HQL,Statistics,SQL Server,Database,C++,Linux,Data Science,Java,Python,Machine Learning,Data Visualization,,,,Data Architect
+Azure,Python,Apache,Data Science,Java,Bigdata,C++,Matlab,SAS,SQL,Linux,Machine Learning,Statistics,,,Data mining engineer
+Pig,Hive HQL,Hadoop,Java,HBase,HDFS,JavaScript,Data Science,Kafka,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hadoop,HBase,Pig,Hive HQL,Java,Data Science,Flume,HDFS,JavaScript,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+Pig,Hive HQL,Java,HBase,Hadoop,HDFS,JavaScript,Kafka,Flume,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Java,Pig,HBase,Hadoop,Hive HQL,Kafka,HDFS,Flume,Data Science,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Statistics,SQL Server,Pig,Database,Hive HQL,Data Science,Java,C++,Python,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Matlab,SQL,Machine Learning,NoSQL,Python,ETL,C++,Linear Algebra and Calculus,Data Visualization,R,Hadoop,SAS,Data Science,,,Data Consultant
+Hive HQL,Pig,SQL Server,Statistics,Database,Linux,C++,Java,Data Science,Python,Machine Learning,Data Visualization,,,,Data Architect
+Machine Learning,Python,SQL,Matlab,NoSQL,Linear Algebra and Calculus,R,C++,ETL,Data Visualization,SAS,Data Science,Hadoop,,,Data Consultant
+Hadoop,Pig,HBase,Hive HQL,Java,Data Science,HDFS,Flume,JavaScript,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+Pig,HBase,Hadoop,Hive HQL,Java,HDFS,Flume,Data Science,JavaScript,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+Data Science,Azure,Apache,Java,Python,SAS,Bigdata,Matlab,SQL,C++,Statistics,Machine Learning,Linux,,,Data mining engineer
+Hive HQL,Database,SQL Server,Pig,Statistics,Linux,Python,Java,C++,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Matlab,Machine Learning,NoSQL,Python,SQL,ETL,Linear Algebra and Calculus,Data Visualization,R,C++,Data Science,SAS,Hadoop,,,Data Consultant
+Statistics,Pig,SQL Server,Database,Hive HQL,Data Science,C++,Java,Python,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Azure,Python,Java,Apache,Data Science,Bigdata,C++,SQL,Matlab,SAS,Statistics,Linux,Machine Learning,,,Data mining engineer
+Hive HQL,Database,Pig,SQL Server,Statistics,Linux,Python,C++,Java,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Apache,Java,Data Science,Azure,Python,Matlab,SQL,SAS,Bigdata,C++,Machine Learning,Linux,Statistics,,,Data mining engineer
+Java,Azure,Python,Apache,Data Science,SQL,Bigdata,C++,Matlab,SAS,Machine Learning,Statistics,Linux,,,Data mining engineer
+SQL Server,Database,Statistics,Pig,Hive HQL,Java,Python,Data Science,C++,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Statistics,SQL Server,Pig,Hive HQL,Database,Data Science,Java,C++,Linux,Python,Machine Learning,Data Visualization,,,,Data Architect
+Database,Pig,SQL Server,Statistics,Hive HQL,Python,C++,Java,Data Science,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Pig,Hadoop,HBase,Java,Hive HQL,HDFS,Data Science,Flume,Kafka,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+NoSQL,Python,Machine Learning,Matlab,SQL,Data Visualization,R,Linear Algebra and Calculus,ETL,C++,SAS,Data Science,Hadoop,,,Data Consultant
+Database,Hive HQL,Statistics,SQL Server,Pig,Python,Linux,Data Science,Java,C++,Machine Learning,Data Visualization,,,,Data Architect
+Hive HQL,Pig,Statistics,SQL Server,Database,Linux,C++,Data Science,Java,Python,Machine Learning,Data Visualization,,,,Data Architect
+NoSQL,SQL,Matlab,Python,Machine Learning,Data Visualization,C++,ETL,R,Linear Algebra and Calculus,Hadoop,Data Science,SAS,,,Data Consultant
+Hadoop,Hive HQL,HBase,Java,Pig,Data Science,JavaScript,Flume,Kafka,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Apache,Azure,Java,Data Science,Python,Matlab,Bigdata,SQL,SAS,C++,Machine Learning,Linux,Statistics,,,Data mining engineer
+Matlab,NoSQL,Machine Learning,Python,SQL,ETL,Data Visualization,Linear Algebra and Calculus,R,C++,Data Science,Hadoop,SAS,,,Data Consultant
+SQL Server,Statistics,Database,Pig,Hive HQL,Java,Data Science,Python,C++,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Hive HQL,Java,HBase,Hadoop,Pig,JavaScript,Kafka,Flume,Data Science,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Matlab,Machine Learning,Python,SQL,NoSQL,ETL,Linear Algebra and Calculus,R,C++,Data Visualization,SAS,Hadoop,Data Science,,,Data Consultant
+Machine Learning,Python,NoSQL,SQL,Matlab,Linear Algebra and Calculus,R,Data Visualization,C++,ETL,Hadoop,SAS,Data Science,,,Data Consultant
+Java,HBase,Hadoop,Hive HQL,Pig,Kafka,Flume,Data Science,JavaScript,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+NoSQL,Python,Matlab,SQL,Machine Learning,Data Visualization,R,ETL,C++,Linear Algebra and Calculus,Data Science,Hadoop,SAS,,,Data Consultant
+Python,SQL,NoSQL,Matlab,Machine Learning,R,C++,Data Visualization,ETL,Linear Algebra and Calculus,SAS,Hadoop,Data Science,,,Data Consultant
+Python,NoSQL,Matlab,Machine Learning,SQL,R,Data Visualization,ETL,Linear Algebra and Calculus,C++,Hadoop,SAS,Data Science,,,Data Consultant
+NoSQL,Python,Machine Learning,SQL,Matlab,Data Visualization,R,Linear Algebra and Calculus,C++,ETL,Data Science,SAS,Hadoop,,,Data Consultant
+SQL,NoSQL,Matlab,Machine Learning,Python,C++,Data Visualization,ETL,Linear Algebra and Calculus,R,SAS,Hadoop,Data Science,,,Data Consultant
+Machine Learning,Matlab,SQL,Python,NoSQL,Linear Algebra and Calculus,ETL,C++,R,Data Visualization,SAS,Hadoop,Data Science,,,Data Consultant
+Pig,Database,Hive HQL,Statistics,SQL Server,C++,Python,Linux,Data Science,Java,Machine Learning,Data Visualization,,,,Data Architect
+SQL,NoSQL,Machine Learning,Python,Matlab,C++,Data Visualization,Linear Algebra and Calculus,R,ETL,SAS,Hadoop,Data Science,,,Data Consultant
+SQL,Python,Matlab,NoSQL,Machine Learning,C++,R,ETL,Data Visualization,Linear Algebra and Calculus,Data Science,SAS,Hadoop,,,Data Consultant
+Python,Machine Learning,SQL,NoSQL,Matlab,R,Linear Algebra and Calculus,C++,Data Visualization,ETL,SAS,Data Science,Hadoop,,,Data Consultant
+NoSQL,SQL,Python,Matlab,Machine Learning,Data Visualization,C++,R,ETL,Linear Algebra and Calculus,Data Science,Hadoop,SAS,,,Data Consultant
+Data Science,Python,Apache,Java,Azure,SAS,C++,Matlab,SQL,Bigdata,Machine Learning,Statistics,Linux,,,Data mining engineer
+Data Science,Azure,Java,Python,Apache,SAS,Bigdata,SQL,C++,Matlab,Linux,Statistics,Machine Learning,,,Data mining engineer
+Data Science,Java,Azure,Python,Apache,SAS,SQL,Bigdata,C++,Matlab,Linux,Machine Learning,Statistics,,,Data mining engineer
+SQL Server,Pig,Hive HQL,Statistics,Database,Java,C++,Linux,Data Science,Python,Machine Learning,Data Visualization,,,,Data Architect
+Apache,Data Science,Azure,Java,Python,Matlab,SAS,Bigdata,SQL,C++,Linux,Statistics,Machine Learning,,,Data mining engineer
+SQL,Python,NoSQL,Machine Learning,Matlab,C++,R,Data Visualization,Linear Algebra and Calculus,ETL,SAS,Hadoop,Data Science,,,Data Consultant
+Python,Apache,Data Science,Azure,Java,C++,Matlab,SAS,Bigdata,SQL,Machine Learning,Linux,Statistics,,,Data mining engineer
+Azure,Data Science,Java,Apache,Python,Bigdata,SAS,SQL,Matlab,C++,Machine Learning,Linux,Statistics,,,Data mining engineer
+NoSQL,Machine Learning,SQL,Matlab,Python,Data Visualization,Linear Algebra and Calculus,C++,ETL,R,SAS,Data Science,Hadoop,,,Data Consultant
+Python,NoSQL,Matlab,SQL,Machine Learning,R,Data Visualization,ETL,C++,Linear Algebra and Calculus,Hadoop,Data Science,SAS,,,Data Consultant
+Hive HQL,SQL Server,Statistics,Database,Pig,Linux,Java,Data Science,Python,C++,Machine Learning,Data Visualization,,,,Data Architect
+Apache,Azure,Data Science,Java,Python,Matlab,Bigdata,SAS,SQL,C++,Linux,Machine Learning,Statistics,,,Data mining engineer
+NoSQL,Matlab,Machine Learning,SQL,Python,Data Visualization,ETL,Linear Algebra and Calculus,C++,R,SAS,Data Science,Hadoop,,,Data Consultant
+Machine Learning,Python,Matlab,NoSQL,SQL,Linear Algebra and Calculus,R,ETL,Data Visualization,C++,SAS,Data Science,Hadoop,,,Data Consultant
+Data Science,Python,Azure,Java,Apache,SAS,C++,Bigdata,SQL,Matlab,Machine Learning,Linux,Statistics,,,Data mining engineer
+Azure,Data Science,Apache,Java,Python,Bigdata,SAS,Matlab,SQL,C++,Machine Learning,Statistics,Linux,,,Data mining engineer
+Data Science,Java,Apache,Python,Azure,SAS,SQL,Matlab,C++,Bigdata,Linux,Statistics,Machine Learning,,,Data mining engineer
+Azure,Java,Data Science,Apache,Python,Bigdata,SQL,SAS,Matlab,C++,Machine Learning,Statistics,Linux,,,Data mining engineer
+Data Science,Java,Apache,Azure,Python,SAS,SQL,Matlab,Bigdata,C++,Statistics,Linux,Machine Learning,,,Data mining engineer
+Machine Learning,Matlab,Python,SQL,NoSQL,Linear Algebra and Calculus,ETL,R,C++,Data Visualization,Hadoop,SAS,Data Science,,,Data Consultant
+SQL Server,Pig,Database,Hive HQL,Statistics,Java,C++,Python,Linux,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Statistics,SQL Server,Database,Hive HQL,Pig,Data Science,Java,Python,Linux,C++,Machine Learning,Data Visualization,,,,Data Architect
+Matlab,NoSQL,Python,Machine Learning,SQL,ETL,Data Visualization,R,Linear Algebra and Calculus,C++,Data Science,SAS,Hadoop,,,Data Consultant
+Pig,SQL Server,Hive HQL,Database,Statistics,C++,Java,Linux,Python,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Hadoop,Hive HQL,Java,HBase,Pig,Data Science,JavaScript,Kafka,Flume,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Pig,Hadoop,Hive HQL,HBase,Java,HDFS,Data Science,JavaScript,Flume,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL Server,Hive HQL,Statistics,Database,Pig,Java,Linux,Data Science,Python,C++,Machine Learning,Data Visualization,,,,Data Architect
+Python,Azure,Data Science,Apache,Java,C++,Bigdata,SAS,Matlab,SQL,Linux,Machine Learning,Statistics,,,Data mining engineer
+Java,Python,Apache,Data Science,Azure,SQL,C++,Matlab,SAS,Bigdata,Linux,Statistics,Machine Learning,,,Data mining engineer
+Java,Azure,Python,Data Science,Apache,SQL,Bigdata,C++,SAS,Matlab,Machine Learning,Linux,Statistics,,,Data mining engineer
+Matlab,SQL,Python,Machine Learning,NoSQL,ETL,C++,R,Linear Algebra and Calculus,Data Visualization,SAS,Data Science,Hadoop,,,Data Consultant
+Pig,Hive HQL,HBase,Hadoop,Java,HDFS,JavaScript,Flume,Data Science,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL Server,Hive HQL,Pig,Database,Statistics,Java,Linux,C++,Python,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Statistics,SQL Server,Database,Pig,Hive HQL,Data Science,Java,Python,C++,Linux,Machine Learning,Data Visualization,,,,Data Architect
+HBase,Hive HQL,Java,Pig,Hadoop,Flume,JavaScript,Kafka,HDFS,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL Server,Hive HQL,Database,Statistics,Pig,Java,Linux,Python,Data Science,C++,Machine Learning,Data Visualization,,,,Data Architect
+Apache,Python,Java,Azure,Data Science,Matlab,C++,SQL,Bigdata,SAS,Statistics,Machine Learning,Linux,,,Data mining engineer
+Java,Apache,Python,Azure,Data Science,SQL,Matlab,C++,Bigdata,SAS,Linux,Statistics,Machine Learning,,,Data mining engineer
+NoSQL,SQL,Python,Machine Learning,Matlab,Data Visualization,C++,R,Linear Algebra and Calculus,ETL,Data Science,SAS,Hadoop,,,Data Consultant
+Apache,Python,Data Science,Java,Azure,Matlab,C++,SAS,SQL,Bigdata,Linux,Statistics,Machine Learning,,,Data mining engineer
+Java,Hive HQL,Hadoop,HBase,Pig,Kafka,JavaScript,Data Science,Flume,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Matlab,SQL,NoSQL,Machine Learning,Python,ETL,C++,Data Visualization,Linear Algebra and Calculus,R,Data Science,SAS,Hadoop,,,Data Consultant
+Apache,Data Science,Azure,Python,Java,Matlab,SAS,Bigdata,C++,SQL,Statistics,Linux,Machine Learning,,,Data mining engineer
+NoSQL,SQL,Matlab,Machine Learning,Python,Data Visualization,C++,ETL,Linear Algebra and Calculus,R,Hadoop,SAS,Data Science,,,Data Consultant
+Pig,SQL Server,Statistics,Database,Hive HQL,C++,Java,Data Science,Python,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Azure,Java,Data Science,Python,Apache,Bigdata,SQL,SAS,C++,Matlab,Statistics,Machine Learning,Linux,,,Data mining engineer
+HBase,Pig,Java,Hadoop,Hive HQL,Flume,HDFS,Kafka,Data Science,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Statistics,Database,Pig,Hive HQL,SQL Server,Data Science,Python,C++,Linux,Java,Machine Learning,Data Visualization,,,,Data Architect
+Hive HQL,Pig,Hadoop,Java,HBase,JavaScript,HDFS,Data Science,Kafka,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Python,Matlab,Machine Learning,SQL,NoSQL,R,ETL,Linear Algebra and Calculus,C++,Data Visualization,Data Science,SAS,Hadoop,,,Data Consultant
+Python,Data Science,Apache,Azure,Java,C++,SAS,Matlab,Bigdata,SQL,Machine Learning,Statistics,Linux,,,Data mining engineer
+Data Science,Azure,Python,Java,Apache,SAS,Bigdata,C++,SQL,Matlab,Machine Learning,Statistics,Linux,,,Data mining engineer
+HBase,Java,Hadoop,Hive HQL,Pig,Flume,Kafka,Data Science,JavaScript,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hive HQL,Database,Pig,Statistics,SQL Server,Linux,Python,C++,Data Science,Java,Machine Learning,Data Visualization,,,,Data Architect
+Pig,Hadoop,Hive HQL,Java,HBase,HDFS,Data Science,JavaScript,Kafka,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Database,Statistics,Hive HQL,Pig,SQL Server,Python,Data Science,Linux,C++,Java,Machine Learning,Data Visualization,,,,Data Architect
+Python,Java,Data Science,Apache,Azure,C++,SQL,SAS,Matlab,Bigdata,Linux,Statistics,Machine Learning,,,Data mining engineer
+Database,Statistics,Pig,SQL Server,Hive HQL,Python,Data Science,C++,Java,Linux,Machine Learning,Data Visualization,,,,Data Architect
+HBase,Pig,Hadoop,Hive HQL,Java,Flume,HDFS,Data Science,JavaScript,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+Data Science,Apache,Python,Java,Azure,SAS,Matlab,C++,SQL,Bigdata,Machine Learning,Linux,Statistics,,,Data mining engineer
+SQL,Matlab,Python,Machine Learning,NoSQL,C++,ETL,R,Linear Algebra and Calculus,Data Visualization,Data Science,SAS,Hadoop,,,Data Consultant
+Python,Azure,Java,Data Science,Apache,C++,Bigdata,SQL,SAS,Matlab,Statistics,Linux,Machine Learning,,,Data mining engineer
+Machine Learning,SQL,Matlab,NoSQL,Python,Linear Algebra and Calculus,C++,ETL,Data Visualization,R,Data Science,SAS,Hadoop,,,Data Consultant
+Database,Statistics,SQL Server,Pig,Hive HQL,Python,Data Science,Java,C++,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Apache,Azure,Python,Java,Data Science,Matlab,Bigdata,C++,SQL,SAS,Linux,Statistics,Machine Learning,,,Data mining engineer
+NoSQL,Python,SQL,Machine Learning,Matlab,Data Visualization,R,C++,Linear Algebra and Calculus,ETL,Data Science,Hadoop,SAS,,,Data Consultant
+Statistics,Hive HQL,SQL Server,Pig,Database,Data Science,Linux,Java,C++,Python,Machine Learning,Data Visualization,,,,Data Architect
+SQL,NoSQL,Matlab,Python,Machine Learning,C++,Data Visualization,ETL,R,Linear Algebra and Calculus,Data Science,Hadoop,SAS,,,Data Consultant
+Data Science,Apache,Java,Python,Azure,SAS,Matlab,SQL,C++,Bigdata,Linux,Machine Learning,Statistics,,,Data mining engineer
+Hadoop,Java,Pig,Hive HQL,HBase,Data Science,Kafka,HDFS,JavaScript,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Database,Hive HQL,SQL Server,Statistics,Pig,Python,Linux,Java,Data Science,C++,Machine Learning,Data Visualization,,,,Data Architect
+Hadoop,Java,Hive HQL,Pig,HBase,Data Science,Kafka,JavaScript,HDFS,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+Pig,Hive HQL,HBase,Java,Hadoop,HDFS,JavaScript,Flume,Kafka,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Java,Apache,Azure,Python,Data Science,SQL,Matlab,Bigdata,C++,SAS,Machine Learning,Statistics,Linux,,,Data mining engineer
+SQL Server,Database,Statistics,Hive HQL,Pig,Java,Python,Data Science,Linux,C++,Machine Learning,Data Visualization,,,,Data Architect
+NoSQL,SQL,Machine Learning,Matlab,Python,Data Visualization,C++,Linear Algebra and Calculus,ETL,R,SAS,Hadoop,Data Science,,,Data Consultant
+Azure,Apache,Python,Data Science,Java,Bigdata,Matlab,C++,SAS,SQL,Linux,Statistics,Machine Learning,,,Data mining engineer
+Java,Pig,Hive HQL,HBase,Hadoop,Kafka,HDFS,JavaScript,Flume,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Data Science,Apache,Java,Azure,Python,SAS,Matlab,SQL,Bigdata,C++,Statistics,Machine Learning,Linux,,,Data mining engineer
+Pig,Hive HQL,Database,SQL Server,Statistics,C++,Linux,Python,Java,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Azure,Apache,Data Science,Java,Python,Bigdata,Matlab,SAS,SQL,C++,Machine Learning,Linux,Statistics,,,Data mining engineer
+HBase,Java,Hive HQL,Hadoop,Pig,Flume,Kafka,JavaScript,Data Science,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Pig,HBase,Java,Hive HQL,Hadoop,HDFS,Flume,Kafka,JavaScript,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL Server,Hive HQL,Database,Pig,Statistics,Java,Linux,Python,C++,Data Science,Machine Learning,Data Visualization,,,,Data Architect
+Hadoop,HBase,Hive HQL,Java,Pig,Data Science,Flume,JavaScript,Kafka,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL,NoSQL,Python,Machine Learning,Matlab,C++,Data Visualization,R,Linear Algebra and Calculus,ETL,SAS,Data Science,Hadoop,,,Data Consultant
+Machine Learning,NoSQL,Matlab,SQL,Python,Linear Algebra and Calculus,Data Visualization,ETL,C++,R,Hadoop,SAS,Data Science,,,Data Consultant
+Database,Hive HQL,Statistics,Pig,SQL Server,Python,Linux,Data Science,C++,Java,Machine Learning,Data Visualization,,,,Data Architect
+Statistics,SQL Server,Hive HQL,Pig,Database,Data Science,Java,Linux,C++,Python,Machine Learning,Data Visualization,,,,Data Architect
+Data Science,Azure,Python,Apache,Java,SAS,Bigdata,C++,Matlab,SQL,Statistics,Machine Learning,Linux,,,Data mining engineer
+SQL,Matlab,NoSQL,Python,Machine Learning,C++,ETL,Data Visualization,R,Linear Algebra and Calculus,Data Science,SAS,Hadoop,,,Data Consultant
+SQL Server,Statistics,Pig,Database,Hive HQL,Java,Data Science,C++,Python,Linux,Machine Learning,Data Visualization,,,,Data Architect
+Python,Data Science,Java,Azure,Apache,C++,SAS,SQL,Bigdata,Matlab,Statistics,Machine Learning,Linux,,,Data mining engineer
+Hive HQL,Hadoop,HBase,Java,Pig,JavaScript,Data Science,Flume,Kafka,HDFS,Sqoop,Machine Learning,,,,Hadoop Engineer
+Java,Hadoop,HBase,Pig,Hive HQL,Kafka,Data Science,Flume,HDFS,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hive HQL,Statistics,Pig,Database,SQL Server,Linux,Data Science,C++,Python,Java,Machine Learning,Data Visualization,,,,Data Architect
+Machine Learning,Matlab,NoSQL,SQL,Python,Linear Algebra and Calculus,ETL,Data Visualization,C++,R,Hadoop,Data Science,SAS,,,Data Consultant
+Java,Data Science,Apache,Azure,Python,SQL,SAS,Matlab,Bigdata,C++,Linux,Statistics,Machine Learning,,,Data mining engineer
+SQL,Matlab,NoSQL,Machine Learning,Python,C++,ETL,Data Visualization,Linear Algebra and Calculus,R,SAS,Data Science,Hadoop,,,Data Consultant
+Python,SQL,Matlab,Machine Learning,NoSQL,R,C++,ETL,Linear Algebra and Calculus,Data Visualization,Hadoop,Data Science,SAS,,,Data Consultant
+Hive HQL,Pig,Java,HBase,Hadoop,JavaScript,HDFS,Kafka,Flume,Data Science,Sqoop,Machine Learning,,,,Hadoop Engineer
+Python,Data Science,Azure,Apache,Java,C++,SAS,Bigdata,Matlab,SQL,Linux,Statistics,Machine Learning,,,Data mining engineer
+Azure,Apache,Java,Python,Data Science,Bigdata,Matlab,SQL,C++,SAS,Linux,Statistics,Machine Learning,,,Data mining engineer
+Machine Learning,Matlab,Python,NoSQL,SQL,Linear Algebra and Calculus,ETL,R,Data Visualization,C++,SAS,Hadoop,Data Science,,,Data Consultant
+Pig,Statistics,Hive HQL,Database,SQL Server,C++,Data Science,Linux,Python,Java,Machine Learning,Data Visualization,,,,Data Architect
+Apache,Python,Azure,Java,Data Science,Matlab,C++,Bigdata,SQL,SAS,Linux,Machine Learning,Statistics,,,Data mining engineer
+NoSQL,Machine Learning,Python,SQL,Matlab,Data Visualization,Linear Algebra and Calculus,R,C++,ETL,Data Science,Hadoop,SAS,,,Data Consultant
+HBase,Java,Hadoop,Pig,Hive HQL,Flume,Kafka,Data Science,HDFS,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Pig,Database,Statistics,Hive HQL,SQL Server,C++,Python,Data Science,Linux,Java,Machine Learning,Data Visualization,,,,Data Architect
+Java,Hive HQL,Hadoop,Pig,HBase,Kafka,JavaScript,Data Science,HDFS,Flume,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL,Machine Learning,Python,NoSQL,Matlab,C++,Linear Algebra and Calculus,R,Data Visualization,ETL,Hadoop,Data Science,SAS,,,Data Consultant
+Pig,Java,Hadoop,HBase,Hive HQL,HDFS,Kafka,Data Science,Flume,JavaScript,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hive HQL,Pig,Hadoop,HBase,Java,JavaScript,HDFS,Data Science,Flume,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+Hive HQL,SQL Server,Database,Statistics,Pig,Linux,Java,Python,Data Science,C++,Machine Learning,Data Visualization,,,,Data Architect
+HBase,Hadoop,Hive HQL,Pig,Java,Flume,Data Science,JavaScript,HDFS,Kafka,Sqoop,Machine Learning,,,,Hadoop Engineer
+SQL Server,Hive HQL,Pig,Statistics,Database,Java,Linux,C++,Data Science,Python,Machine Learning,Data Visualization,,,,Data Architect

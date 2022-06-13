@@ -1,0 +1,240 @@
+﻿r,matlab,python,sql,data visualization tools,linear algebra,machine learning,execl,Calculus,nosql,scala,Analytics,,,,data analyst
+nosql,etl,python,scala,sql,Kafka,ELK Stack,apache airflow,Apache Spark,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+scala,sql,python,nosql,etl,Apache Spark,Hadoop Ecosystem,apache airflow,Kafka,ELK Stack,Amazon Redshift,,,,,Data Engineer
+scala,etl,python,nosql,sql,Apache Spark,ELK Stack,apache airflow,Kafka,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+matlab,sql,data visualization tools,r,python,machine learning,Calculus,nosql,linear algebra,execl,Analytics,scala,,,,data analyst
+r,python,sql,matlab,data visualization tools,linear algebra,execl,Calculus,machine learning,nosql,scala,Analytics,,,,data analyst
+sql,etl,scala,python,nosql,Hadoop Ecosystem,ELK Stack,Apache Spark,apache airflow,Kafka,Amazon Redshift,,,,,Data Engineer
+nosql,etl,python,sql,scala,Kafka,ELK Stack,apache airflow,Hadoop Ecosystem,Apache Spark,Amazon Redshift,,,,,Data Engineer
+scala,sql,python,etl,nosql,Apache Spark,Hadoop Ecosystem,apache airflow,ELK Stack,Kafka,Amazon Redshift,,,,,Data Engineer
+sql,etl,python,nosql,scala,Hadoop Ecosystem,ELK Stack,apache airflow,Kafka,Apache Spark,Amazon Redshift,,,,,Data Engineer
+etl,nosql,scala,sql,python,ELK Stack,Kafka,Apache Spark,Hadoop Ecosystem,apache airflow,Amazon Redshift,,,,,Data Engineer
+python,data visualization tools,matlab,sql,r,execl,nosql,machine learning,Calculus,linear algebra,Analytics,scala,,,,data analyst
+r,sql,matlab,python,data visualization tools,linear algebra,Calculus,machine learning,execl,nosql,scala,Analytics,,,,data analyst
+sql,scala,python,nosql,etl,Hadoop Ecosystem,Apache Spark,apache airflow,Kafka,ELK Stack,Amazon Redshift,,,,,Data Engineer
+scala,sql,nosql,etl,python,Apache Spark,Hadoop Ecosystem,Kafka,ELK Stack,apache airflow,Amazon Redshift,,,,,Data Engineer
+matlab,sql,python,r,data visualization tools,machine learning,Calculus,execl,linear algebra,nosql,scala,Analytics,,,,data analyst
+python,sql,data visualization tools,matlab,r,execl,Calculus,nosql,machine learning,linear algebra,Analytics,scala,,,,data analyst
+r,sql,python,matlab,data visualization tools,linear algebra,Calculus,execl,machine learning,nosql,Analytics,scala,,,,data analyst
+r,matlab,sql,python,data visualization tools,linear algebra,machine learning,Calculus,execl,nosql,Analytics,scala,,,,data analyst
+python,matlab,sql,data visualization tools,r,execl,machine learning,Calculus,nosql,linear algebra,Analytics,scala,,,,data analyst
+r,sql,matlab,data visualization tools,python,linear algebra,Calculus,machine learning,nosql,execl,Analytics,scala,,,,data analyst
+sql,python,etl,scala,nosql,Hadoop Ecosystem,apache airflow,ELK Stack,Apache Spark,Kafka,Amazon Redshift,,,,,Data Engineer
+nosql,sql,scala,etl,python,Kafka,Hadoop Ecosystem,Apache Spark,ELK Stack,apache airflow,Amazon Redshift,,,,,Data Engineer
+etl,nosql,sql,scala,python,ELK Stack,Kafka,Hadoop Ecosystem,Apache Spark,apache airflow,Amazon Redshift,,,,,Data Engineer
+sql,data visualization tools,matlab,r,python,Calculus,nosql,machine learning,linear algebra,execl,Analytics,scala,,,,data analyst
+sql,nosql,etl,scala,python,Hadoop Ecosystem,Kafka,ELK Stack,Apache Spark,apache airflow,Amazon Redshift,,,,,Data Engineer
+scala,nosql,python,etl,sql,Apache Spark,Kafka,apache airflow,ELK Stack,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+sql,data visualization tools,r,matlab,python,Calculus,nosql,linear algebra,machine learning,execl,scala,Analytics,,,,data analyst
+sql,data visualization tools,matlab,python,r,Calculus,nosql,machine learning,execl,linear algebra,scala,Analytics,,,,data analyst
+scala,etl,nosql,python,sql,Apache Spark,ELK Stack,Kafka,apache airflow,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+python,r,data visualization tools,sql,matlab,execl,linear algebra,nosql,Calculus,machine learning,Analytics,scala,,,,data analyst
+python,matlab,r,sql,data visualization tools,execl,machine learning,linear algebra,Calculus,nosql,Analytics,scala,,,,data analyst
+sql,python,data visualization tools,r,matlab,Calculus,execl,nosql,linear algebra,machine learning,Analytics,scala,,,,data analyst
+python,sql,scala,etl,nosql,apache airflow,Hadoop Ecosystem,Apache Spark,ELK Stack,Kafka,Amazon Redshift,,,,,Data Engineer
+python,sql,etl,scala,nosql,apache airflow,Hadoop Ecosystem,ELK Stack,Apache Spark,Kafka,Amazon Redshift,,,,,Data Engineer
+python,sql,nosql,etl,scala,apache airflow,Hadoop Ecosystem,Kafka,ELK Stack,Apache Spark,Amazon Redshift,,,,,Data Engineer
+sql,nosql,scala,python,etl,Hadoop Ecosystem,Kafka,Apache Spark,apache airflow,ELK Stack,Amazon Redshift,,,,,Data Engineer
+r,data visualization tools,python,sql,matlab,linear algebra,nosql,execl,Calculus,machine learning,Analytics,scala,,,,data analyst
+r,matlab,python,data visualization tools,sql,linear algebra,machine learning,execl,nosql,Calculus,Analytics,scala,,,,data analyst
+python,matlab,sql,r,data visualization tools,execl,machine learning,Calculus,linear algebra,nosql,scala,Analytics,,,,data analyst
+etl,nosql,python,sql,scala,ELK Stack,Kafka,apache airflow,Hadoop Ecosystem,Apache Spark,Amazon Redshift,,,,,Data Engineer
+nosql,sql,python,scala,etl,Kafka,Hadoop Ecosystem,apache airflow,Apache Spark,ELK Stack,Amazon Redshift,,,,,Data Engineer
+etl,nosql,python,scala,sql,ELK Stack,Kafka,apache airflow,Apache Spark,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+sql,matlab,data visualization tools,r,python,Calculus,machine learning,nosql,linear algebra,execl,scala,Analytics,,,,data analyst
+scala,sql,nosql,python,etl,Apache Spark,Hadoop Ecosystem,Kafka,apache airflow,ELK Stack,Amazon Redshift,,,,,Data Engineer
+etl,scala,sql,python,nosql,ELK Stack,Apache Spark,Hadoop Ecosystem,apache airflow,Kafka,Amazon Redshift,,,,,Data Engineer
+etl,python,sql,nosql,scala,ELK Stack,apache airflow,Hadoop Ecosystem,Kafka,Apache Spark,Amazon Redshift,,,,,Data Engineer
+sql,python,nosql,etl,scala,Hadoop Ecosystem,apache airflow,Kafka,ELK Stack,Apache Spark,Amazon Redshift,,,,,Data Engineer
+r,matlab,sql,data visualization tools,python,linear algebra,machine learning,Calculus,nosql,execl,scala,Analytics,,,,data analyst
+sql,matlab,python,data visualization tools,r,Calculus,machine learning,execl,nosql,linear algebra,scala,Analytics,,,,data analyst
+data visualization tools,sql,python,matlab,r,nosql,Calculus,execl,machine learning,linear algebra,scala,Analytics,,,,data analyst
+scala,nosql,python,sql,etl,Apache Spark,Kafka,apache airflow,Hadoop Ecosystem,ELK Stack,Amazon Redshift,,,,,Data Engineer
+etl,sql,nosql,python,scala,ELK Stack,Hadoop Ecosystem,Kafka,apache airflow,Apache Spark,Amazon Redshift,,,,,Data Engineer
+r,python,matlab,data visualization tools,sql,linear algebra,execl,machine learning,nosql,Calculus,scala,Analytics,,,,data analyst
+sql,scala,nosql,etl,python,Hadoop Ecosystem,Apache Spark,Kafka,ELK Stack,apache airflow,Amazon Redshift,,,,,Data Engineer
+sql,python,r,data visualization tools,matlab,Calculus,execl,linear algebra,nosql,machine learning,scala,Analytics,,,,data analyst
+python,etl,sql,nosql,scala,apache airflow,ELK Stack,Hadoop Ecosystem,Kafka,Apache Spark,Amazon Redshift,,,,,Data Engineer
+scala,sql,etl,python,nosql,Apache Spark,Hadoop Ecosystem,ELK Stack,apache airflow,Kafka,Amazon Redshift,,,,,Data Engineer
+sql,python,r,matlab,data visualization tools,Calculus,execl,linear algebra,machine learning,nosql,Analytics,scala,,,,data analyst
+r,sql,data visualization tools,matlab,python,linear algebra,Calculus,nosql,machine learning,execl,scala,Analytics,,,,data analyst
+matlab,python,data visualization tools,sql,r,machine learning,execl,nosql,Calculus,linear algebra,Analytics,scala,,,,data analyst
+python,etl,nosql,sql,scala,apache airflow,ELK Stack,Kafka,Hadoop Ecosystem,Apache Spark,Amazon Redshift,,,,,Data Engineer
+data visualization tools,matlab,r,python,sql,nosql,machine learning,linear algebra,execl,Calculus,Analytics,scala,,,,data analyst
+scala,etl,sql,nosql,python,Apache Spark,ELK Stack,Hadoop Ecosystem,Kafka,apache airflow,Amazon Redshift,,,,,Data Engineer
+python,data visualization tools,r,matlab,sql,execl,nosql,linear algebra,machine learning,Calculus,Analytics,scala,,,,data analyst
+nosql,scala,etl,sql,python,Kafka,Apache Spark,ELK Stack,Hadoop Ecosystem,apache airflow,Amazon Redshift,,,,,Data Engineer
+data visualization tools,matlab,r,sql,python,nosql,machine learning,linear algebra,Calculus,execl,scala,Analytics,,,,data analyst
+sql,matlab,python,r,data visualization tools,Calculus,machine learning,execl,linear algebra,nosql,Analytics,scala,,,,data analyst
+sql,python,matlab,data visualization tools,r,Calculus,execl,machine learning,nosql,linear algebra,Analytics,scala,,,,data analyst
+matlab,r,sql,data visualization tools,python,machine learning,linear algebra,Calculus,nosql,execl,Analytics,scala,,,,data analyst
+python,sql,r,matlab,data visualization tools,execl,Calculus,linear algebra,machine learning,nosql,scala,Analytics,,,,data analyst
+nosql,etl,sql,scala,python,Kafka,ELK Stack,Hadoop Ecosystem,Apache Spark,apache airflow,Amazon Redshift,,,,,Data Engineer
+sql,data visualization tools,python,r,matlab,Calculus,nosql,execl,linear algebra,machine learning,scala,Analytics,,,,data analyst
+data visualization tools,sql,matlab,python,r,nosql,Calculus,machine learning,execl,linear algebra,Analytics,scala,,,,data analyst
+matlab,r,python,sql,data visualization tools,machine learning,linear algebra,execl,Calculus,nosql,Analytics,scala,,,,data analyst
+r,python,data visualization tools,sql,matlab,linear algebra,execl,nosql,Calculus,machine learning,scala,Analytics,,,,data analyst
+sql,python,etl,nosql,scala,Hadoop Ecosystem,apache airflow,ELK Stack,Kafka,Apache Spark,Amazon Redshift,,,,,Data Engineer
+python,sql,matlab,r,data visualization tools,execl,Calculus,machine learning,linear algebra,nosql,Analytics,scala,,,,data analyst
+sql,nosql,etl,python,scala,Hadoop Ecosystem,Kafka,ELK Stack,apache airflow,Apache Spark,Amazon Redshift,,,,,Data Engineer
+python,r,sql,data visualization tools,matlab,execl,linear algebra,Calculus,nosql,machine learning,scala,Analytics,,,,data analyst
+data visualization tools,r,python,sql,matlab,nosql,linear algebra,execl,Calculus,machine learning,scala,Analytics,,,,data analyst
+data visualization tools,r,sql,python,matlab,nosql,linear algebra,Calculus,execl,machine learning,Analytics,scala,,,,data analyst
+nosql,python,etl,scala,sql,Kafka,apache airflow,ELK Stack,Apache Spark,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+python,sql,scala,nosql,etl,apache airflow,Hadoop Ecosystem,Apache Spark,Kafka,ELK Stack,Amazon Redshift,,,,,Data Engineer
+matlab,r,data visualization tools,sql,python,machine learning,linear algebra,nosql,Calculus,execl,scala,Analytics,,,,data analyst
+etl,python,scala,sql,nosql,ELK Stack,apache airflow,Apache Spark,Hadoop Ecosystem,Kafka,Amazon Redshift,,,,,Data Engineer
+scala,python,etl,sql,nosql,Apache Spark,apache airflow,ELK Stack,Hadoop Ecosystem,Kafka,Amazon Redshift,,,,,Data Engineer
+scala,nosql,etl,python,sql,Apache Spark,Kafka,ELK Stack,apache airflow,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+python,nosql,scala,etl,sql,apache airflow,Kafka,Apache Spark,ELK Stack,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+sql,r,data visualization tools,matlab,python,Calculus,linear algebra,nosql,machine learning,execl,Analytics,scala,,,,data analyst
+sql,etl,scala,nosql,python,Hadoop Ecosystem,ELK Stack,Apache Spark,Kafka,apache airflow,Amazon Redshift,,,,,Data Engineer
+nosql,python,sql,scala,etl,Kafka,apache airflow,Hadoop Ecosystem,Apache Spark,ELK Stack,Amazon Redshift,,,,,Data Engineer
+etl,python,scala,nosql,sql,ELK Stack,apache airflow,Apache Spark,Kafka,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+python,etl,scala,sql,nosql,apache airflow,ELK Stack,Apache Spark,Hadoop Ecosystem,Kafka,Amazon Redshift,,,,,Data Engineer
+sql,nosql,python,etl,scala,Hadoop Ecosystem,Kafka,apache airflow,ELK Stack,Apache Spark,Amazon Redshift,,,,,Data Engineer
+python,etl,scala,nosql,sql,apache airflow,ELK Stack,Apache Spark,Kafka,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+python,r,matlab,data visualization tools,sql,execl,linear algebra,machine learning,nosql,Calculus,Analytics,scala,,,,data analyst
+etl,scala,sql,nosql,python,ELK Stack,Apache Spark,Hadoop Ecosystem,Kafka,apache airflow,Amazon Redshift,,,,,Data Engineer
+sql,etl,python,scala,nosql,Hadoop Ecosystem,ELK Stack,apache airflow,Apache Spark,Kafka,Amazon Redshift,,,,,Data Engineer
+python,nosql,scala,sql,etl,apache airflow,Kafka,Apache Spark,Hadoop Ecosystem,ELK Stack,Amazon Redshift,,,,,Data Engineer
+sql,scala,nosql,python,etl,Hadoop Ecosystem,Apache Spark,Kafka,apache airflow,ELK Stack,Amazon Redshift,,,,,Data Engineer
+nosql,python,scala,etl,sql,Kafka,apache airflow,Apache Spark,ELK Stack,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+sql,matlab,r,python,data visualization tools,Calculus,machine learning,linear algebra,execl,nosql,scala,Analytics,,,,data analyst
+etl,scala,python,sql,nosql,ELK Stack,Apache Spark,apache airflow,Hadoop Ecosystem,Kafka,Amazon Redshift,,,,,Data Engineer
+etl,scala,python,nosql,sql,ELK Stack,Apache Spark,apache airflow,Kafka,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+r,data visualization tools,sql,matlab,python,linear algebra,nosql,Calculus,machine learning,execl,Analytics,scala,,,,data analyst
+data visualization tools,python,r,matlab,sql,nosql,execl,linear algebra,machine learning,Calculus,scala,Analytics,,,,data analyst
+scala,python,etl,nosql,sql,Apache Spark,apache airflow,ELK Stack,Kafka,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+scala,etl,sql,python,nosql,Apache Spark,ELK Stack,Hadoop Ecosystem,apache airflow,Kafka,Amazon Redshift,,,,,Data Engineer
+nosql,scala,sql,etl,python,Kafka,Apache Spark,Hadoop Ecosystem,ELK Stack,apache airflow,Amazon Redshift,,,,,Data Engineer
+python,sql,nosql,scala,etl,apache airflow,Hadoop Ecosystem,Kafka,Apache Spark,ELK Stack,Amazon Redshift,,,,,Data Engineer
+sql,scala,etl,nosql,python,Hadoop Ecosystem,Apache Spark,ELK Stack,Kafka,apache airflow,Amazon Redshift,,,,,Data Engineer
+python,data visualization tools,matlab,r,sql,execl,nosql,machine learning,linear algebra,Calculus,scala,Analytics,,,,data analyst
+matlab,data visualization tools,python,sql,r,machine learning,nosql,execl,Calculus,linear algebra,scala,Analytics,,,,data analyst
+nosql,etl,scala,sql,python,Kafka,ELK Stack,Apache Spark,Hadoop Ecosystem,apache airflow,Amazon Redshift,,,,,Data Engineer
+sql,matlab,data visualization tools,python,r,Calculus,machine learning,nosql,execl,linear algebra,Analytics,scala,,,,data analyst
+r,data visualization tools,python,matlab,sql,linear algebra,nosql,execl,machine learning,Calculus,scala,Analytics,,,,data analyst
+r,python,matlab,sql,data visualization tools,linear algebra,execl,machine learning,Calculus,nosql,Analytics,scala,,,,data analyst
+python,matlab,data visualization tools,sql,r,execl,machine learning,nosql,Calculus,linear algebra,scala,Analytics,,,,data analyst
+data visualization tools,python,r,sql,matlab,nosql,execl,linear algebra,Calculus,machine learning,Analytics,scala,,,,data analyst
+data visualization tools,sql,matlab,r,python,nosql,Calculus,machine learning,linear algebra,execl,scala,Analytics,,,,data analyst
+matlab,r,python,data visualization tools,sql,machine learning,linear algebra,execl,nosql,Calculus,scala,Analytics,,,,data analyst
+matlab,r,sql,python,data visualization tools,machine learning,linear algebra,Calculus,execl,nosql,scala,Analytics,,,,data analyst
+r,sql,python,data visualization tools,matlab,linear algebra,Calculus,execl,nosql,machine learning,scala,Analytics,,,,data analyst
+data visualization tools,matlab,sql,python,r,nosql,machine learning,Calculus,execl,linear algebra,scala,Analytics,,,,data analyst
+sql,etl,nosql,python,scala,Hadoop Ecosystem,ELK Stack,Kafka,apache airflow,Apache Spark,Amazon Redshift,,,,,Data Engineer
+python,r,sql,matlab,data visualization tools,execl,linear algebra,Calculus,machine learning,nosql,Analytics,scala,,,,data analyst
+sql,r,matlab,python,data visualization tools,Calculus,linear algebra,machine learning,execl,nosql,Analytics,scala,,,,data analyst
+r,data visualization tools,matlab,python,sql,linear algebra,nosql,machine learning,execl,Calculus,Analytics,scala,,,,data analyst
+matlab,python,r,sql,data visualization tools,machine learning,execl,linear algebra,Calculus,nosql,scala,Analytics,,,,data analyst
+nosql,python,etl,sql,scala,Kafka,apache airflow,ELK Stack,Hadoop Ecosystem,Apache Spark,Amazon Redshift,,,,,Data Engineer
+matlab,python,sql,r,data visualization tools,machine learning,execl,Calculus,linear algebra,nosql,Analytics,scala,,,,data analyst
+r,data visualization tools,matlab,sql,python,linear algebra,nosql,machine learning,Calculus,execl,scala,Analytics,,,,data analyst
+sql,r,matlab,data visualization tools,python,Calculus,linear algebra,machine learning,nosql,execl,scala,Analytics,,,,data analyst
+sql,etl,nosql,scala,python,Hadoop Ecosystem,ELK Stack,Kafka,Apache Spark,apache airflow,Amazon Redshift,,,,,Data Engineer
+data visualization tools,sql,python,r,matlab,nosql,Calculus,execl,linear algebra,machine learning,Analytics,scala,,,,data analyst
+nosql,sql,etl,scala,python,Kafka,Hadoop Ecosystem,ELK Stack,Apache Spark,apache airflow,Amazon Redshift,,,,,Data Engineer
+scala,python,nosql,etl,sql,Apache Spark,apache airflow,Kafka,ELK Stack,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+matlab,python,data visualization tools,r,sql,machine learning,execl,nosql,linear algebra,Calculus,scala,Analytics,,,,data analyst
+python,etl,sql,scala,nosql,apache airflow,ELK Stack,Hadoop Ecosystem,Apache Spark,Kafka,Amazon Redshift,,,,,Data Engineer
+etl,python,nosql,sql,scala,ELK Stack,apache airflow,Kafka,Hadoop Ecosystem,Apache Spark,Amazon Redshift,,,,,Data Engineer
+r,data visualization tools,sql,python,matlab,linear algebra,nosql,Calculus,execl,machine learning,scala,Analytics,,,,data analyst
+etl,python,nosql,scala,sql,ELK Stack,apache airflow,Kafka,Apache Spark,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+python,scala,nosql,sql,etl,apache airflow,Apache Spark,Kafka,Hadoop Ecosystem,ELK Stack,Amazon Redshift,,,,,Data Engineer
+data visualization tools,r,sql,matlab,python,nosql,linear algebra,Calculus,machine learning,execl,scala,Analytics,,,,data analyst
+scala,etl,python,sql,nosql,Apache Spark,ELK Stack,apache airflow,Hadoop Ecosystem,Kafka,Amazon Redshift,,,,,Data Engineer
+python,matlab,r,data visualization tools,sql,execl,machine learning,linear algebra,nosql,Calculus,scala,Analytics,,,,data analyst
+python,nosql,etl,scala,sql,apache airflow,Kafka,ELK Stack,Apache Spark,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+python,data visualization tools,sql,matlab,r,execl,nosql,Calculus,machine learning,linear algebra,scala,Analytics,,,,data analyst
+python,nosql,sql,scala,etl,apache airflow,Kafka,Hadoop Ecosystem,Apache Spark,ELK Stack,Amazon Redshift,,,,,Data Engineer
+data visualization tools,sql,r,python,matlab,nosql,Calculus,linear algebra,execl,machine learning,scala,Analytics,,,,data analyst
+matlab,data visualization tools,python,r,sql,machine learning,nosql,execl,linear algebra,Calculus,Analytics,scala,,,,data analyst
+sql,data visualization tools,python,matlab,r,Calculus,nosql,execl,machine learning,linear algebra,Analytics,scala,,,,data analyst
+nosql,etl,sql,python,scala,Kafka,ELK Stack,Hadoop Ecosystem,apache airflow,Apache Spark,Amazon Redshift,,,,,Data Engineer
+sql,r,data visualization tools,python,matlab,Calculus,linear algebra,nosql,execl,machine learning,scala,Analytics,,,,data analyst
+data visualization tools,python,sql,r,matlab,nosql,execl,Calculus,linear algebra,machine learning,scala,Analytics,,,,data analyst
+etl,python,sql,scala,nosql,ELK Stack,apache airflow,Hadoop Ecosystem,Apache Spark,Kafka,Amazon Redshift,,,,,Data Engineer
+python,r,matlab,sql,data visualization tools,execl,linear algebra,machine learning,Calculus,nosql,scala,Analytics,,,,data analyst
+matlab,python,r,data visualization tools,sql,machine learning,execl,linear algebra,nosql,Calculus,Analytics,scala,,,,data analyst
+etl,scala,nosql,sql,python,ELK Stack,Apache Spark,Kafka,Hadoop Ecosystem,apache airflow,Amazon Redshift,,,,,Data Engineer
+sql,scala,etl,python,nosql,Hadoop Ecosystem,Apache Spark,ELK Stack,apache airflow,Kafka,Amazon Redshift,,,,,Data Engineer
+nosql,python,sql,etl,scala,Kafka,apache airflow,Hadoop Ecosystem,ELK Stack,Apache Spark,Amazon Redshift,,,,,Data Engineer
+etl,sql,scala,python,nosql,ELK Stack,Hadoop Ecosystem,Apache Spark,apache airflow,Kafka,Amazon Redshift,,,,,Data Engineer
+etl,sql,python,scala,nosql,ELK Stack,Hadoop Ecosystem,apache airflow,Apache Spark,Kafka,Amazon Redshift,,,,,Data Engineer
+scala,python,sql,nosql,etl,Apache Spark,apache airflow,Hadoop Ecosystem,Kafka,ELK Stack,Amazon Redshift,,,,,Data Engineer
+data visualization tools,r,python,matlab,sql,nosql,linear algebra,execl,machine learning,Calculus,Analytics,scala,,,,data analyst
+matlab,r,data visualization tools,python,sql,machine learning,linear algebra,nosql,execl,Calculus,Analytics,scala,,,,data analyst
+etl,scala,nosql,python,sql,ELK Stack,Apache Spark,Kafka,apache airflow,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+matlab,python,sql,data visualization tools,r,machine learning,execl,Calculus,nosql,linear algebra,scala,Analytics,,,,data analyst
+sql,python,data visualization tools,matlab,r,Calculus,execl,nosql,machine learning,linear algebra,scala,Analytics,,,,data analyst
+sql,python,matlab,r,data visualization tools,Calculus,execl,machine learning,linear algebra,nosql,scala,Analytics,,,,data analyst
+nosql,scala,sql,python,etl,Kafka,Apache Spark,Hadoop Ecosystem,apache airflow,ELK Stack,Amazon Redshift,,,,,Data Engineer
+matlab,data visualization tools,sql,r,python,machine learning,nosql,Calculus,linear algebra,execl,scala,Analytics,,,,data analyst
+data visualization tools,matlab,sql,r,python,nosql,machine learning,Calculus,linear algebra,execl,Analytics,scala,,,,data analyst
+sql,r,python,data visualization tools,matlab,Calculus,linear algebra,execl,nosql,machine learning,Analytics,scala,,,,data analyst
+etl,nosql,sql,python,scala,ELK Stack,Kafka,Hadoop Ecosystem,apache airflow,Apache Spark,Amazon Redshift,,,,,Data Engineer
+matlab,sql,r,data visualization tools,python,machine learning,Calculus,linear algebra,nosql,execl,scala,Analytics,,,,data analyst
+python,scala,sql,nosql,etl,apache airflow,Apache Spark,Hadoop Ecosystem,Kafka,ELK Stack,Amazon Redshift,,,,,Data Engineer
+sql,scala,python,etl,nosql,Hadoop Ecosystem,Apache Spark,apache airflow,ELK Stack,Kafka,Amazon Redshift,,,,,Data Engineer
+matlab,sql,data visualization tools,python,r,machine learning,Calculus,nosql,execl,linear algebra,scala,Analytics,,,,data analyst
+r,sql,data visualization tools,python,matlab,linear algebra,Calculus,nosql,execl,machine learning,Analytics,scala,,,,data analyst
+python,sql,matlab,data visualization tools,r,execl,Calculus,machine learning,nosql,linear algebra,scala,Analytics,,,,data analyst
+nosql,sql,scala,python,etl,Kafka,Hadoop Ecosystem,Apache Spark,apache airflow,ELK Stack,Amazon Redshift,,,,,Data Engineer
+r,python,sql,data visualization tools,matlab,linear algebra,execl,Calculus,nosql,machine learning,Analytics,scala,,,,data analyst
+python,data visualization tools,r,sql,matlab,execl,nosql,linear algebra,Calculus,machine learning,scala,Analytics,,,,data analyst
+data visualization tools,r,matlab,python,sql,nosql,linear algebra,machine learning,execl,Calculus,scala,Analytics,,,,data analyst
+python,scala,etl,sql,nosql,apache airflow,Apache Spark,ELK Stack,Hadoop Ecosystem,Kafka,Amazon Redshift,,,,,Data Engineer
+etl,nosql,scala,python,sql,ELK Stack,Kafka,Apache Spark,apache airflow,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+sql,python,scala,etl,nosql,Hadoop Ecosystem,apache airflow,Apache Spark,ELK Stack,Kafka,Amazon Redshift,,,,,Data Engineer
+sql,matlab,r,data visualization tools,python,Calculus,machine learning,linear algebra,nosql,execl,Analytics,scala,,,,data analyst
+python,scala,sql,etl,nosql,apache airflow,Apache Spark,Hadoop Ecosystem,ELK Stack,Kafka,Amazon Redshift,,,,,Data Engineer
+python,scala,nosql,etl,sql,apache airflow,Apache Spark,Kafka,ELK Stack,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+data visualization tools,matlab,python,r,sql,nosql,machine learning,execl,linear algebra,Calculus,scala,Analytics,,,,data analyst
+python,matlab,data visualization tools,r,sql,execl,machine learning,nosql,linear algebra,Calculus,Analytics,scala,,,,data analyst
+etl,sql,nosql,scala,python,ELK Stack,Hadoop Ecosystem,Kafka,Apache Spark,apache airflow,Amazon Redshift,,,,,Data Engineer
+python,etl,nosql,scala,sql,apache airflow,ELK Stack,Kafka,Apache Spark,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+etl,sql,scala,nosql,python,ELK Stack,Hadoop Ecosystem,Apache Spark,Kafka,apache airflow,Amazon Redshift,,,,,Data Engineer
+sql,nosql,scala,etl,python,Hadoop Ecosystem,Kafka,Apache Spark,ELK Stack,apache airflow,Amazon Redshift,,,,,Data Engineer
+scala,python,nosql,sql,etl,Apache Spark,apache airflow,Kafka,Hadoop Ecosystem,ELK Stack,Amazon Redshift,,,,,Data Engineer
+python,scala,etl,nosql,sql,apache airflow,Apache Spark,ELK Stack,Kafka,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+nosql,scala,python,sql,etl,Kafka,Apache Spark,apache airflow,Hadoop Ecosystem,ELK Stack,Amazon Redshift,,,,,Data Engineer
+data visualization tools,r,matlab,sql,python,nosql,linear algebra,machine learning,Calculus,execl,Analytics,scala,,,,data analyst
+etl,sql,python,nosql,scala,ELK Stack,Hadoop Ecosystem,apache airflow,Kafka,Apache Spark,Amazon Redshift,,,,,Data Engineer
+nosql,sql,python,etl,scala,Kafka,Hadoop Ecosystem,apache airflow,ELK Stack,Apache Spark,Amazon Redshift,,,,,Data Engineer
+sql,python,nosql,scala,etl,Hadoop Ecosystem,apache airflow,Kafka,Apache Spark,ELK Stack,Amazon Redshift,,,,,Data Engineer
+python,nosql,etl,sql,scala,apache airflow,Kafka,ELK Stack,Hadoop Ecosystem,Apache Spark,Amazon Redshift,,,,,Data Engineer
+scala,sql,etl,nosql,python,Apache Spark,Hadoop Ecosystem,ELK Stack,Kafka,apache airflow,Amazon Redshift,,,,,Data Engineer
+scala,nosql,sql,python,etl,Apache Spark,Kafka,Hadoop Ecosystem,apache airflow,ELK Stack,Amazon Redshift,,,,,Data Engineer
+data visualization tools,python,sql,matlab,r,nosql,execl,Calculus,machine learning,linear algebra,Analytics,scala,,,,data analyst
+nosql,etl,scala,python,sql,Kafka,ELK Stack,Apache Spark,apache airflow,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+sql,nosql,python,scala,etl,Hadoop Ecosystem,Kafka,apache airflow,Apache Spark,ELK Stack,Amazon Redshift,,,,,Data Engineer
+python,sql,data visualization tools,r,matlab,execl,Calculus,nosql,linear algebra,machine learning,scala,Analytics,,,,data analyst
+scala,nosql,sql,etl,python,Apache Spark,Kafka,Hadoop Ecosystem,ELK Stack,apache airflow,Amazon Redshift,,,,,Data Engineer
+data visualization tools,matlab,python,sql,r,nosql,machine learning,execl,Calculus,linear algebra,Analytics,scala,,,,data analyst
+r,matlab,data visualization tools,sql,python,linear algebra,machine learning,nosql,Calculus,execl,Analytics,scala,,,,data analyst
+scala,python,sql,etl,nosql,Apache Spark,apache airflow,Hadoop Ecosystem,ELK Stack,Kafka,Amazon Redshift,,,,,Data Engineer
+python,nosql,sql,etl,scala,apache airflow,Kafka,Hadoop Ecosystem,ELK Stack,Apache Spark,Amazon Redshift,,,,,Data Engineer
+data visualization tools,sql,r,matlab,python,nosql,Calculus,linear algebra,machine learning,execl,Analytics,scala,,,,data analyst
+python,sql,r,data visualization tools,matlab,execl,Calculus,linear algebra,nosql,machine learning,Analytics,scala,,,,data analyst
+matlab,data visualization tools,sql,python,r,machine learning,nosql,Calculus,execl,linear algebra,Analytics,scala,,,,data analyst
+scala,etl,nosql,sql,python,Apache Spark,ELK Stack,Kafka,Hadoop Ecosystem,apache airflow,Amazon Redshift,,,,,Data Engineer
+sql,r,python,matlab,data visualization tools,Calculus,linear algebra,execl,machine learning,nosql,scala,Analytics,,,,data analyst
+data visualization tools,python,matlab,sql,r,nosql,execl,machine learning,Calculus,linear algebra,scala,Analytics,,,,data analyst
+python,sql,etl,nosql,scala,apache airflow,Hadoop Ecosystem,ELK Stack,Kafka,Apache Spark,Amazon Redshift,,,,,Data Engineer
+matlab,sql,python,data visualization tools,r,machine learning,Calculus,execl,nosql,linear algebra,Analytics,scala,,,,data analyst
+matlab,data visualization tools,r,sql,python,machine learning,nosql,linear algebra,Calculus,execl,Analytics,scala,,,,data analyst
+nosql,scala,python,etl,sql,Kafka,Apache Spark,apache airflow,ELK Stack,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+python,data visualization tools,sql,r,matlab,execl,nosql,Calculus,linear algebra,machine learning,Analytics,scala,,,,data analyst
+sql,data visualization tools,r,python,matlab,Calculus,nosql,linear algebra,execl,machine learning,Analytics,scala,,,,data analyst
+nosql,sql,etl,python,scala,Kafka,Hadoop Ecosystem,ELK Stack,apache airflow,Apache Spark,Amazon Redshift,,,,,Data Engineer
+scala,nosql,etl,sql,python,Apache Spark,Kafka,ELK Stack,Hadoop Ecosystem,apache airflow,Amazon Redshift,,,,,Data Engineer
+matlab,sql,r,python,data visualization tools,machine learning,Calculus,linear algebra,execl,nosql,Analytics,scala,,,,data analyst
+matlab,data visualization tools,r,python,sql,machine learning,nosql,linear algebra,execl,Calculus,scala,Analytics,,,,data analyst
+nosql,python,scala,sql,etl,Kafka,apache airflow,Apache Spark,Hadoop Ecosystem,ELK Stack,Amazon Redshift,,,,,Data Engineer
+r,matlab,data visualization tools,python,sql,linear algebra,machine learning,nosql,execl,Calculus,scala,Analytics,,,,data analyst
+r,python,data visualization tools,matlab,sql,linear algebra,execl,nosql,machine learning,Calculus,Analytics,scala,,,,data analyst
+sql,python,scala,nosql,etl,Hadoop Ecosystem,apache airflow,Apache Spark,Kafka,ELK Stack,Amazon Redshift,,,,,Data Engineer
+nosql,scala,etl,python,sql,Kafka,Apache Spark,ELK Stack,apache airflow,Hadoop Ecosystem,Amazon Redshift,,,,,Data Engineer
+python,r,data visualization tools,matlab,sql,execl,linear algebra,nosql,machine learning,Calculus,scala,Analytics,,,,data analyst
+data visualization tools,python,matlab,r,sql,nosql,execl,machine learning,linear algebra,Calculus,Analytics,scala,,,,data analyst

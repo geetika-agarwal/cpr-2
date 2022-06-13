@@ -1,0 +1,141 @@
+{% extends "layout.html" %} {%block content%}
+
+<nav class="navbar navbar-expand-md navbar-light" style="overflow-x: hidden;">
+    <a class="navbar-brand" href="{{url_for('home')}}"><img class="logo" src="../static/images/logo.png" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a href="{{url_for('home')}}" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="{{url_for('getStarted')}}" class="nav-link">Get Started</a>
+            </li>
+            <li class="nav-item">
+                <a href="{{url_for('aboutUs')}}" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="{{url_for('logout')}}" class="nav-link modal-button"
+                    style="color: #fff; padding: 1rem">Logout</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section class="output-section">
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="mainHeading">
+                <span style="color: #e16428">Career Path Recommendation</span><br />
+                <span style="color: #272121">using Machine Learning</span>
+            </h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <h3 class="form-text">
+            Top
+            <span class="recc">Recommendation</span>
+            that are best suited for you:
+        </h3>
+    </div>
+    </div>
+
+    <br />
+    <div class="container">
+        <div class="row" id="reccomendationBody">
+            <br />
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+    dictTech = localStorage.getItem("dataTech");
+    dictTech = dictTech.slice(1, dictTech.length - 1);
+    tempdictTList = dictTech.split(",");
+    dictTList = []
+    if (tempdictTList.length >= 2) {
+        for (var i = 0; i < tempdictTList.length; i++) {
+            temp = (tempdictTList[i].split(":"))
+            dictTList.push(temp[0]);
+            dictTList.push(temp[1]);
+        }
+    } else {
+        dictTList = tempdictTList[0].split(":")
+    }
+    console.log(dictTList);
+    dictionaryTech = {};
+
+    for (var i = 0; i < dictTList.length; i = i + 2) {
+        dictionaryTech[dictTList[i]] = dictTList[i + 1];
+    }
+
+    dictPer = localStorage.getItem("dataPer");
+    dictPer = dictPer.slice(1, dictPer.length - 1);
+    tempdictPList = dictPer.split(",");
+    dictPList = []
+    if (tempdictPList.length >= 2) {
+        for (var i = 0; i < tempdictPList.length; i++) {
+            temp = (tempdictPList[i].split(":"))
+            dictPList.push(temp[0]);
+            dictPList.push(temp[1]);
+        }
+    } else {
+        dictPList = tempdictPList[0].split(":")
+    }
+    console.log(dictPList);
+    dictionaryPer = {};
+
+    for (var i = 0; i < dictPList.length; i = i + 2) {
+        dictionaryPer[dictPList[i]] = dictPList[i + 1];
+    }
+    if (dictPer.length == 0 || dictTech.length == 0) {
+        const reccBody = document.getElementById("reccomendationBody");
+        reccBody.innerHTML = `
+            <div>
+                <h1>No Reccommendations found </h1>
+                <h3>This can be due to the following reasons </h3>
+                <ul style="padding-left: 50px">
+                    <li>There wer no skills or internships selected.</li>
+                    <li>There were no relevant skills selected.</li>
+                    <li>The skills selected were not enough or sufficient for a technology</li>
+                </ul>
+            </div>
+        `
+    }
+
+    else {
+        const reccBody = document.getElementById("reccomendationBody");
+        var count = 0;
+        for (var i = 0; i < dictTList.length/2; i++) {
+            reccBody.innerHTML += `
+            <div class="col-md-12 col-lg-6">
+                    <div class="card-body">
+                        <div class="card-image-container">
+                            <img class="card-img"
+                                src="https://images.unsplash.com/photo-1617240016072-d92174e44171?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                alt="card image">
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h1 class="card-tech">${dictTList[count].slice(1, dictTList[count].length - 1)}</h1>
+                                    <h3 class="card-jobrole">${dictTList[count + 1].slice(1, dictTList[count + 1].length - 1)}</h3>
+                                </div>
+                                <div class="col-lg-4">
+                                    <h1 class="card-percentage">${dictPList[count + 1].slice(0, 5)}</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        `
+        count = count + 2
+        }
+    }
+</script>
+{%endblock content%}
