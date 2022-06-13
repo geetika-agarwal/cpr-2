@@ -8,15 +8,20 @@ from cpr.models import User, Ruser, Tech
 from flask_login import login_user, current_user, logout_user
 
 
-@app.route('/')
-def home():
+@app.route("/")
+def hero():
     return render_template('index.html')
+
+
+@app.route('/home')
+def home():
+    return render_template('home.html')
 
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     if current_user.is_authenticated:
-        return redirect(url_for("getStarted"))
+        return redirect(url_for("home"))
     form = RegistrationFrom()
     if form.validate_on_submit():
         hashed_password = bcrypt.generate_password_hash(
@@ -32,14 +37,14 @@ def register():
 @app.route('/login', methods=["GET", "POST"])
 def login():
     if current_user.is_authenticated:
-        return redirect(url_for("getStarted"))
+        return redirect(url_for("home"))
     form = LoginFrom()
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
         if user and bcrypt.check_password_hash(user.password, form.password.data):
 
             login_user(user)
-            return redirect(url_for('getStarted'))
+            return redirect(url_for('home'))
         else:
             flash('Login Unsuccessful. Please check email and password', 'danger')
 
@@ -63,10 +68,9 @@ def getStarted():
         session["dictTech"] = dictTech
         session["dictPer"] = dictPer
         l = list(dictTech.keys())
-        print(email)
         user_id = User.query.filter_by(email=allSkills['user']).first()
         if len(l) == 1:
-            if Tech.query.filter_by(user_id=user_id.id).first().id == None:
+            if Tech.query.filter_by(user_id=user_id.id).first() == None:
                 t1 = Tech(tech1=l[0], user_id=user_id.id)
                 db.session.add(t1)
                 db.session.commit()
@@ -231,18 +235,23 @@ def outputF():
         return render_template("output.html")
 
 
+@app.route('/get-to-know')
+def getToKnow():
+    return render_template('getToKnow.html')
+
+
 @app.route('/Logout')
 def logout():
     if not current_user.is_authenticated:
-        return redirect(url_for("home"))
+        return redirect(url_for("hero"))
     logout_user()
-    return redirect(url_for('home'))
+    return redirect(url_for('hero'))
 
 
 @app.route('/rregister', methods=['GET', 'POST'])
 def rregister():
     if current_user.is_authenticated:
-        return redirect(url_for("getStarted"))
+        return redirect(url_for("home"))
     form = RecruterRegistrationFrom()
     if form.validate_on_submit():
         hashed_password = bcrypt.generate_password_hash(
@@ -258,13 +267,13 @@ def rregister():
 @app.route('/rlogin', methods=["GET", "POST"])
 def rlogin():
     if current_user.is_authenticated:
-        return redirect(url_for("getStarted"))
+        return redirect(url_for("login"))
     form = RecruterLoginFrom()
     if form.validate_on_submit():
         user = Ruser.query.filter_by(email=form.email.data).first()
         if user and bcrypt.check_password_hash(user.password, form.password.data):
             login_user(user)
-            return redirect(url_for('getStarted'))
+            return redirect(url_for('login'))
         else:
             flash('Login Unsuccessful. Please check email and password', 'danger')
 

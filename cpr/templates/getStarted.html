@@ -1,17 +1,8 @@
 {% extends 'layout.html' %} {% block content %}
 <nav class="navbar navbar-expand-md navbar-light">
-  <a class="navbar-brand" href="{{url_for('home')}}"
-    ><img class="logo" src="../static/images/logo.png"
-  /></a>
-  <button
-    class="navbar-toggler"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarToggler"
-    aria-controls="navbarToggler"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
+  <a class="navbar-brand" href="{{url_for('home')}}"><img class="logo" src="../static/images/logo.png" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -63,26 +54,15 @@
       <!--Name Input-->
       <div class="form-group">
         <label for="Name" class="form-headings">Name:</label>
-        <input
-          type="text"
-          id="Name"
-          class="form-control"
-          placeholder="Enter your name"
-          required
-        />
+        <input type="text" id="name" class="form-control" value="" placeholder="Enter your name" />
       </div>
 
       <!--Email Input-->
       <div class="form-group">
         <label for="Email" class="form-headings">Email:</label>
-        <input
-          type="email"
-          id="Email"
-          class="form-control"
-          placeholder="Enter your Email"
-          required="true"
-        />
-        <small>We will keep your email address confidential.</small>
+        <input type="email" id="email" value="" class="form-control" placeholder="Enter your Email" />
+        <small>We will keep your email address confidential. Please use the same email that you use for Login. If not
+          the results may vary.</small>
       </div>
 
       <hr class="form-hr" />
@@ -98,12 +78,7 @@
               <div class="container-fluid" id="skillContainer">
                 <div class="row" id="SkillBody"></div>
                 <div class="row button-wrapper">
-                  <button
-                    class="addSkill form-button"
-                    type="button"
-                    data-toggle="modal"
-                    data-target="#skillModal"
-                  >
+                  <button class="addSkill form-button" type="button" data-toggle="modal" data-target="#skillModal">
                     + Add Skill
                   </button>
                 </div>
@@ -126,12 +101,8 @@
               <div class="container-fluid" id="InternshipContainer">
                 <div class="row" id="InternshipBody"></div>
                 <div class="row button-wrapper">
-                  <button
-                    class="addInternship form-button"
-                    type="button"
-                    data-toggle="modal"
-                    data-target="#InternshipModal"
-                  >
+                  <button class="addInternship form-button" type="button" data-toggle="modal"
+                    data-target="#InternshipModal">
                     + Add Internship
                   </button>
                 </div>
@@ -154,12 +125,8 @@
               <div class="container-fluid" id="TrainingContainer">
                 <div class="row" id="TrainingBody"></div>
                 <div class="row button-wrapper">
-                  <button
-                    class="addTraining form-button"
-                    type="button"
-                    data-toggle="modal"
-                    data-target="#TrainingModal"
-                  >
+                  <button class="addTraining form-button" type="button" data-toggle="modal"
+                    data-target="#TrainingModal">
                     + Add Training
                   </button>
                 </div>
@@ -170,6 +137,7 @@
       </div>
 
       <hr class="form-hr" />
+
     </form>
     <div class="submit-wrapper">
       <input type="submit" class="modal-button" onclick="submitFunc()" style="margin-bottom: 2rem;" />
@@ -181,40 +149,39 @@
 <script>
   function submitFunc() {
     const xhr = new XMLHttpRequest();
-    mail=document.getElementById("Email").value;
-    sender = {tskills:skills,user:mail,itechno:tech};
-    xhr.open("POST", '/get-started', );
+    mail = document.getElementById("email").value;
+    sender = { tskills: skills, user: mail, itechno: tech };
+    xhr.open("POST", '/get-started');
     xhr.send(JSON.stringify(sender));
-    xhr.onload = function() {
-      var dataReply = JSON.parse(this.responseText);
-      localStorage.setItem("dataTech", JSON.stringify(dataReply.dictT));
-      localStorage.setItem("dataPer", JSON.stringify(dataReply.dictP));
-      window.location.href="{{url_for('loadingPage')}}";
+    name = document.getElementById("name").value;
+    console.log(name);
+    email = document.getElementById("email").value;
+    if (name == "") {
+      alert("Fill the name field!");
+    } else if (email == "") {
+      alert("Fill the email field!");
+    }
+    else {
+      xhr.onload = function () {
+        var dataReply = JSON.parse(this.responseText);
+        localStorage.setItem("name", name)
+        localStorage.setItem("dataTech", JSON.stringify(dataReply.dictT));
+        localStorage.setItem("dataPer", JSON.stringify(dataReply.dictP));
+        window.location.href = "{{url_for('loadingPage')}}";
+      }
     }
 
-    
+
   }
 </script>
 
 <!--Skills Modal-->
-<div
-  class="modal fade"
-  id="skillModal"
-  tabindex="-1"
-  role="dialog"
-  aria-hidden="true"
-  aria-labelledby="skillModal"
->
+<div class="modal fade" id="skillModal" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="skillModal">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title">Add Skill</h4>
-        <button
-          type="button"
-          class="close"
-          data-dismiss="modal"
-          aria-label="Close"
-        >
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -392,9 +359,7 @@
                 <option value="integrated development environment (IDE)">
                   Integrated development environment (IDE)
                 </option>
-                <option
-                  value="Intelligent Business Project Management Suites (iBPMS)"
-                >
+                <option value="Intelligent Business Project Management Suites (iBPMS)">
                   Intelligent Business Project Management Suites (iBPMS)
                 </option>
                 <option value="Interaction Design">Interaction Design</option>
@@ -414,10 +379,10 @@
                 <option value="Kubernetes">Kubernetes</option>
               </optgroup>
               <optgroup label="L">
-                <optgroup label="Lead Designer">Lead Designer</optgroup>
-                <option value="Linear Algebra">Linear Algebra</option>
-                <option value="Linux">Linux</option>
-                <option value="Lisp">Lisp</option>
+              <optgroup label="Lead Designer">Lead Designer</optgroup>
+              <option value="Linear Algebra">Linear Algebra</option>
+              <option value="Linux">Linux</option>
+              <option value="Lisp">Lisp</option>
               </optgroup>
               <optgroup label="M">
                 <option value="3D Modelling">3D Modelling</option>
@@ -463,12 +428,12 @@
                 <option value="PowerShell">PowerShell</option>
                 <option value="Probability">Probability</option>
                 <option value="Problem Solving">Problem Solving</option>
-                <optgroup label="Process Design">Process Design</optgroup>
-                <option value="Product Enhancement">Product Enhancement</option>
-                <option value="Project Management Skills">Project Management Skills</option>
-                <option value="Prolog">Prolog</option>
-                <option value="Prototyping">Prototyping</option>
-                <option value="Python">Python</option>
+              <optgroup label="Process Design">Process Design</optgroup>
+              <option value="Product Enhancement">Product Enhancement</option>
+              <option value="Project Management Skills">Project Management Skills</option>
+              <option value="Prolog">Prolog</option>
+              <option value="Prototyping">Prototyping</option>
+              <option value="Python">Python</option>
               </optgroup>
               <optgroup label="R">
                 <option value="R">R</option>
@@ -495,7 +460,7 @@
                 <option value="Security Automation">Security Automation</option>
                 <option value="Security Principles">Security Principles</option>
                 <option value="Security Protocols">Security Protocols</option>
-                <option value="Secure SDLC">Secure SDLC</option> 
+                <option value="Secure SDLC">Secure SDLC</option>
                 <option value="Smart Contracts">Smart Contracts</option>
                 <option value="SnowPipe">SnowPipe</option>
                 <option value="SnowSQL">SnowSQL</option>
@@ -604,11 +569,7 @@
       </div>
 
       <div class="modal-footer">
-        <button
-          type="button"
-          class="skillSubmit modal-button"
-          data-dismiss="modal"
-        >
+        <button type="button" class="skillSubmit modal-button" data-dismiss="modal">
           Submit
         </button>
       </div>
@@ -639,7 +600,7 @@
       </div>
     `;
 
-    if(skills.indexOf(skillName) == -1) {
+    if (skills.indexOf(skillName) == -1) {
       skills.push(skillName);
     }
 
@@ -650,24 +611,13 @@
 </script>
 
 <!--Internship Modal-->
-<div
-  class="modal fade"
-  id="InternshipModal"
-  tabindex="-1"
-  role="dialog"
-  aria-hidden="true"
-  aria-labelledby="InternshipModal"
->
+<div class="modal fade" id="InternshipModal" tabindex="-1" role="dialog" aria-hidden="true"
+  aria-labelledby="InternshipModal">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title">Add Internship</h4>
-        <button
-          type="button"
-          class="close"
-          data-dismiss="modal"
-          aria-label="Close"
-        >
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -676,13 +626,8 @@
         <form id="internship-form">
           <div class="form-group">
             <label for="company-name">Name of the Company:</label>
-            <input
-              type="text"
-              id="company-name"
-              class="form-control"
-              placeholder="Enter Company Name"
-              required aria-required="true"
-            />
+            <input type="text" id="company-name" class="form-control" placeholder="Enter Company Name" required
+              aria-required="true" />
           </div>
           <div class="form-group">
             <label for="job-role">Technology used/ Job Role</label>
@@ -769,12 +714,7 @@
           </div>
           <div class="form-group">
             <label for="location">Location</label>
-            <input
-              type="text"
-              placeholder="Offline / Online"
-              id="location"
-              class="form-control"
-            />
+            <input type="text" placeholder="Offline / Online" id="location" class="form-control" />
           </div>
 
           <div class="form-group">
@@ -787,33 +727,19 @@
 
           <div class="form-group">
             <label for="salary">Salary:</label>
-            <input
-              type="text"
-              class="form-control"
-              id="salary"
-              placeholder="Enter Your Salary"
-            />
+            <input type="text" class="form-control" id="salary" placeholder="Enter Your Salary" />
           </div>
 
           <div class="form-group">
             <label for="description">Description:</label>
-            <textarea
-              class="form-control"
-              row="5"
-              id="description"
-              cols="50"
-              placeholder="Enter a small description about your role."
-            ></textarea>
+            <textarea class="form-control" row="5" id="description" cols="50"
+              placeholder="Enter a small description about your role."></textarea>
           </div>
         </form>
       </div>
 
       <div class="modal-footer">
-        <button
-          type="button"
-          class="internshipSubmit modal-button"
-          data-dismiss="modal"
-        >
+        <button type="button" class="internshipSubmit modal-button" data-dismiss="modal">
           Submit
         </button>
       </div>
@@ -845,9 +771,8 @@
               <p class="skill-name-level">${companyName}</p>
               <p class="skill-name-style">${jobrole}</p>
               <p class="skill-level-style">${location}</p>
-              <p class="skill-level-style">${
-                timeFrom + " to <br /> " + timeTo
-              }</p>
+              <p class="skill-level-style">${timeFrom + " to <br /> " + timeTo
+      }</p>
               <p class="skill-level-style">${salary}</p>
               <p class="skill-level-style">${description}</p>
             </div>
@@ -855,9 +780,9 @@
       </div>
     `;
 
-      if(tech.indexOf(jobrole) == -1) {
-        tech.push(jobrole);
-      }
+    if (tech.indexOf(jobrole) == -1) {
+      tech.push(jobrole);
+    }
 
   }
   document.getElementById("internship-form").reset();
@@ -865,24 +790,13 @@
 </script>
 
 <!--Training Modal-->
-<div
-  class="modal fade"
-  id="TrainingModal"
-  tabindex="-1"
-  role="dialog"
-  aria-hidden="true"
-  aria-labelledby="TrainingModal"
->
+<div class="modal fade" id="TrainingModal" tabindex="-1" role="dialog" aria-hidden="true"
+  aria-labelledby="TrainingModal">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title">Add Trainings and Certifications</h4>
-        <button
-          type="button"
-          class="close"
-          data-dismiss="modal"
-          aria-label="Close"
-        >
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -1061,9 +975,7 @@
                 <option value="integrated development environment (IDE)">
                   Integrated development environment (IDE)
                 </option>
-                <option
-                  value="Intelligent Business Project Management Suites (iBPMS)"
-                >
+                <option value="Intelligent Business Project Management Suites (iBPMS)">
                   Intelligent Business Project Management Suites (iBPMS)
                 </option>
                 <option value="Interaction Design">Interaction Design</option>
@@ -1083,10 +995,10 @@
                 <option value="Kubernetes">Kubernetes</option>
               </optgroup>
               <optgroup label="L">
-                <optgroup label="Lead Designer">Lead Designer</optgroup>
-                <option value="Linear Algebra">Linear Algebra</option>
-                <option value="Linux">Linux</option>
-                <option value="Lisp">Lisp</option>
+              <optgroup label="Lead Designer">Lead Designer</optgroup>
+              <option value="Linear Algebra">Linear Algebra</option>
+              <option value="Linux">Linux</option>
+              <option value="Lisp">Lisp</option>
               </optgroup>
               <optgroup label="M">
                 <option value="3D Modelling">3D Modelling</option>
@@ -1132,12 +1044,12 @@
                 <option value="PowerShell">PowerShell</option>
                 <option value="Probability">Probability</option>
                 <option value="Problem Solving">Problem Solving</option>
-                <optgroup label="Process Design">Process Design</optgroup>
-                <option value="Product Enhancement">Product Enhancement</option>
-                <option value="Project Management Skills">Project Management Skills</option>
-                <option value="Prolog">Prolog</option>
-                <option value="Prototyping">Prototyping</option>
-                <option value="Python">Python</option>
+              <optgroup label="Process Design">Process Design</optgroup>
+              <option value="Product Enhancement">Product Enhancement</option>
+              <option value="Project Management Skills">Project Management Skills</option>
+              <option value="Prolog">Prolog</option>
+              <option value="Prototyping">Prototyping</option>
+              <option value="Python">Python</option>
               </optgroup>
               <optgroup label="R">
                 <option value="R">R</option>
@@ -1164,7 +1076,7 @@
                 <option value="Security Automation">Security Automation</option>
                 <option value="Security Principles">Security Principles</option>
                 <option value="Security Protocols">Security Protocols</option>
-                <option value="Secure SDLC">Secure SDLC</option> 
+                <option value="Secure SDLC">Secure SDLC</option>
                 <option value="Smart Contracts">Smart Contracts</option>
                 <option value="SnowPipe">SnowPipe</option>
                 <option value="SnowSQL">SnowSQL</option>
@@ -1263,12 +1175,7 @@
           </div>
           <div class="form-group">
             <label for="platform">Platform of Study</label>
-            <input
-              type="text"
-              id="platform"
-              class="form-control"
-              placeholder="Enter Platform"
-            />
+            <input type="text" id="platform" class="form-control" placeholder="Enter Platform" />
           </div>
 
           <div class="form-group">
@@ -1281,23 +1188,14 @@
 
           <div class="form-group">
             <label for="training-description">Description:</label>
-            <textarea
-              class="form-control"
-              row="5"
-              id="training-description"
-              cols="50"
-              placeholder="Enter a small description about your training."
-            ></textarea>
+            <textarea class="form-control" row="5" id="training-description" cols="50"
+              placeholder="Enter a small description about your training."></textarea>
           </div>
         </form>
       </div>
 
       <div class="modal-footer">
-        <button
-          type="button"
-          class="trainingSubmit modal-button"
-          data-dismiss="modal"
-        >
+        <button type="button" class="trainingSubmit modal-button" data-dismiss="modal">
           Submit
         </button>
       </div>
@@ -1328,16 +1226,15 @@
           <div class="col-lg-12 col-md-12 contents">
             <p class="skill-name-style">${trainingSkillName}</p>
             <p class="skill-level-style">${platform}</p>
-            <p class="skill-level-style">${
-              trainingTimeFrom + " to <br />" + trainingTimeTo
-            }</p>
+            <p class="skill-level-style">${trainingTimeFrom + " to <br />" + trainingTimeTo
+      }</p>
             <p class="skill-level-style">${description}</p>
           </div>
       </div>
     </div>
     `;
 
-    if(skills.indexOf(trainingSkillName) == -1) {
+    if (skills.indexOf(trainingSkillName) == -1) {
       skills.push(trainingSkillName);
     }
 
@@ -1346,20 +1243,11 @@
   TrainingSubmit[0].addEventListener("click", addSkillRow);
 </script>
 
-<script
-  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-  crossorigin="anonymous"
-></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 {% endblock %}

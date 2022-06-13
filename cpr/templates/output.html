@@ -38,9 +38,7 @@
 
     <div class="row">
         <h3 class="form-text">
-            Top
-            <span class="recc">Recommendation</span>
-            that are best suited for you:
+
         </h3>
     </div>
     </div>
@@ -50,8 +48,23 @@
         <div class="row" id="reccomendationBody">
             <br />
         </div>
+        <div class="row">
+            <div class="col-lg-12 output-button-wrapper">
+                <a href="{{url_for('home')}}"><button class="modal-button">Go to Home Page</button></a>
+            </div>
+        </div>
     </div>
 </section>
+
+<script>
+    const name = localStorage.getItem('name');
+    var formText = document.getElementsByClassName('form-text')[0];
+    formText.innerHTML = `Hey <b>${name}<b>!!!
+        <br />
+        <br /> &nbsp;  Top
+            <span class="recc">Recommendation</span>
+            that are best suited for you:`
+</script>
 
 <script type="text/javascript">
     dictTech = localStorage.getItem("dataTech");
@@ -111,20 +124,36 @@
     else {
         const reccBody = document.getElementById("reccomendationBody");
         var count = 0;
-        for (var i = 0; i < dictTList.length/2; i++) {
+        images = ["https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1206&q=80",
+            "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+            "https://images.unsplash.com/photo-1592609930961-219235eded71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+            "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80",
+            "https://images.unsplash.com/photo-1580894742597-87bc8789db3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "https://images.unsplash.com/photo-1580894908361-967195033215?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "https://images.unsplash.com/photo-1503039153293-d4d2ba067754?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"]
+        for (var i = 0; i < dictTList.length / 2; i++) {
             reccBody.innerHTML += `
             <div class="col-md-12 col-lg-6">
                     <div class="card-body">
                         <div class="card-image-container">
                             <img class="card-img"
-                                src="https://images.unsplash.com/photo-1617240016072-d92174e44171?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                                src=${images[Math.floor(Math.random() * images.length)]}
                                 alt="card image">
                         </div>
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-8">
-                                    <h1 class="card-tech">${dictTList[count].slice(1, dictTList[count].length - 1)}</h1>
-                                    <h3 class="card-jobrole">${dictTList[count + 1].slice(1, dictTList[count + 1].length - 1)}</h3>
+                                    <h2 class="card-tech">${dictTList[count].slice(1, dictTList[count].length - 1)}</h2>
+                                    <h4 class="card-jobrole">${dictTList[count + 1].slice(1, dictTList[count + 1].length - 1).toUpperCase()}</h4>
                                 </div>
                                 <div class="col-lg-4">
                                     <h1 class="card-percentage">${dictPList[count + 1].slice(0, 5)}</h1>
@@ -134,7 +163,7 @@
                     </div>
                 </div>
         `
-        count = count + 2
+            count = count + 2
         }
     }
 </script>

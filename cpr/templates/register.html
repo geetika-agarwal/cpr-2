@@ -39,95 +39,96 @@
       </h1>
     </div>
   </div>
-</section>
-<div class="container">
-  <div class="row">
-    <div class="col-lg-3"></div>
-    <div class="col-lg-6 col-sm-12">
-      <form method="post" action="">
-        {{form.hidden_tag()}}
-        <fieldset class="form-group">
-          <legend
-            class="border-bottom mb-4 recc text-center"
-            style="font-size: 2rem"
-          >
-            Registeration form
-          </legend>
-          <div class="form-group">
-            {{form.username.label(class="form-control-label form-headings")}} {%
-            if form.username.errors%} {{form.username(class="form-control
-            from-control-lg is-invalid", placeholder="Enter your Full Name")}}
-            <div class="invalid-feedback">
-              {% for e in form.username.errors%}
-              <span>{{e}}</span>
-              {% endfor %}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3"></div>
+      <div class="col-lg-6 col-sm-12">
+        <form method="post" action="">
+          {{form.hidden_tag()}}
+          <fieldset class="form-group">
+            <legend
+              class="border-bottom mb-4 recc text-center"
+              style="font-size: 2rem"
+            >
+              Registeration form
+            </legend>
+            <div class="form-group">
+              {{form.username.label(class="form-control-label form-headings")}}
+              {% if form.username.errors%} {{form.username(class="form-control
+              from-control-lg is-invalid", placeholder="Enter your Full Name")}}
+              <div class="invalid-feedback">
+                {% for e in form.username.errors%}
+                <span>{{e}}</span>
+                {% endfor %}
+              </div>
+
+              {%else%} {{form.username(class="form-control from-control-lg",
+              placeholder="Enter your Full Name")}} {% endif %}
             </div>
 
-            {%else%} {{form.username(class="form-control from-control-lg",
-            placeholder="Enter your Full Name")}} {% endif %}
-          </div>
+            <div class="form-group">
+              {{form.email.label(class="form-control-label form-headings")}} {%
+              if form.email.errors%} {{form.email(class="form-control
+              from-control-lg is-invalid", placeholder="Enter your Email")}}
+              <div class="invalid-feedback">
+                {% for e in form.email.errors%}
+                <span>{{e}}</span>
+                {% endfor %}
+              </div>
+              {%else%} {{form.email(class="form-control from-control-lg",
+              placeholder="Enter your Email")}} {% endif %}
+            </div>
+
+            <div class="form-group">
+              {{form.password.label(class="form-control-label form-headings")}}
+              {% if form.password.errors%} {{form.password(class="form-control
+              from-control-lg is-invalid", placeholder="Password")}}
+              <div class="invalid-feedback">
+                {% for e in form.password.errors%}
+                <span>{{e}}</span>
+
+                {% endfor %}
+              </div>
+              {%else%} {{form.password(class="form-control from-control-lg",
+              placeholder="Password")}} {% endif %}
+            </div>
+
+            <div class="form-group">
+              {{form.confirm_password.label(class="form-control-label
+              form-headings")}} {% if form.confirm_password.errors%}
+              {{form.confirm_password(class="form-control from-control-lg
+              is-invalid", placeholder="Confirm Password")}}
+              <div class="invalid-feedback">
+                {% for e in form.confirm_password.errors%}
+                <span>{{e}}</span>
+
+                {% endfor %}
+              </div>
+              {%else%} {{form.confirm_password(class="form-control
+              from-control-lg", placeholder="Confirm Password")}} {% endif %}
+            </div>
+          </fieldset>
 
           <div class="form-group">
-            {{form.email.label(class="form-control-label form-headings")}} {% if
-            form.email.errors%} {{form.email(class="form-control from-control-lg
-            is-invalid", placeholder="Enter your Email")}}
-            <div class="invalid-feedback">
-              {% for e in form.email.errors%}
-              <span>{{e}}</span>
-              {% endfor %}
+            <div class="text-center">
+              {{form.submit(class="modal-button submit-wrapper")}}
             </div>
-            {%else%} {{form.email(class="form-control from-control-lg",
-            placeholder="Enter your Email")}} {% endif %}
           </div>
+        </form>
 
-          <div class="form-group">
-            {{form.password.label(class="form-control-label form-headings")}} {%
-            if form.password.errors%} {{form.password(class="form-control
-            from-control-lg is-invalid", placeholder="Password")}}
-            <div class="invalid-feedback">
-              {% for e in form.password.errors%}
-              <span>{{e}}</span>
-
-              {% endfor %}
-            </div>
-            {%else%} {{form.password(class="form-control from-control-lg",
-            placeholder="Password")}} {% endif %}
-          </div>
-
-          <div class="form-group">
-            {{form.confirm_password.label(class="form-control-label
-            form-headings")}} {% if form.confirm_password.errors%}
-            {{form.confirm_password(class="form-control from-control-lg
-            is-invalid", placeholder="Confirm Password")}}
-            <div class="invalid-feedback">
-              {% for e in form.confirm_password.errors%}
-              <span>{{e}}</span>
-
-              {% endfor %}
-            </div>
-            {%else%} {{form.confirm_password(class="form-control
-            from-control-lg", placeholder="Confirm Password")}} {% endif %}
-          </div>
-        </fieldset>
-        
-        <div class="form-group">
-          <div class="text-center">
-            {{form.submit(class="modal-button submit-wrapper")}}
-          </div>
+        <div class="border-top pt-3">
+          <small class="text-muted">
+            Already have an Account?
+            <a class="ml-2" href="{{url_for('login')}}">User Sign In</a>
+          </small>
+          <br />
+          <br />
+          <br />
         </div>
-      </form>
-
-      <div class="border-top pt-3">
-        <small class="text-muted">
-          Already have an Account?
-          <a class="ml-2" href="{{url_for('login')}}">Sign In</a>
-        </small>
-        <br />
-        <br />
-        <br />
       </div>
+      <div class="col-lg-3"></div>
     </div>
-    <div class="col-lg-3"></div>
   </div>
-</div>
+</section>
 {%endblock content%}

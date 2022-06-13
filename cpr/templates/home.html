@@ -1,0 +1,89 @@
+{% extends 'layout.html' %} {% block content %}
+<nav class="navbar navbar-expand-md navbar-light">
+  <a class="navbar-brand" href="{{url_for('home')}}"
+    ><img class="logo" src="../static/images/logo.png"
+  /></a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarToggler"
+    aria-controls="navbarToggler"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarToggler">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a href="{{url_for('home')}}" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="{{url_for('getStarted')}}" class="nav-link">Get Started</a>
+      </li>
+      <li class="nav-item">
+        <a href="{{url_for('aboutUs')}}" class="nav-link">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a
+          href="{{url_for('logout')}}"
+          class="nav-link modal-button"
+          style="color: #fff; padding: 1rem"
+          >Logout</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <h1 class="mainHeading">
+        <span style="color: #e16428">Career Path Recommendation</span><br />
+        <span style="color: #272121">using Machine Learning</span>
+      </h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <h2 class="mainHeading" style="color: #303841">
+        Choose one of the
+        <span style="color: #e16428">recommendation</span> that you need...
+      </h2>
+    </div>
+  </div>
+
+  <div class="container card-container">
+    <div class="row">
+      <div class="col-lg-5 col-sm-12 home-card">
+        <h2 class="home-card-heading">Career Reccomendation</h2>
+        <h4 class="home-card-content">
+          This feature will
+          <b style="font-family: 'IBM Plex Mono'">reccomend you the Career</b>
+          that are best suited for you based on your Skills
+        </h4>
+        <a href="{{url_for('getStarted')}}"
+          ><button class="home-card-button modal-button">Get Started</button></a
+        >
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-5 col-sm-12 home-card">
+        <h2 class="home-card-heading">Skills Reccomendation</h2>
+        <h4 class="home-card-content">
+          This feature will
+          <b style="font-family: 'IBM Plex Mono'">reccomend you the Skills</b>
+          that are required for a particular Career.
+        </h4>
+        <a href="{{url_for('getToKnow')}}"
+          ><button class="home-card-button modal-button">Get To Know</button></a
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
