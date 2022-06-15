@@ -1,5 +1,7 @@
 import json
+from msilib import type_short
 from cpr.getSkills import getSkillsF
+from cpr.getUsers import getUsers
 from cpr.processPrecentage import processPer
 from flask import flash, redirect, render_template, url_for, request, jsonify
 from flask import session
@@ -272,14 +274,23 @@ def rregister():
 @app.route('/rlogin', methods=["GET", "POST"])
 def rlogin():
     if current_user.is_authenticated:
-        return redirect(url_for("login"))
+        return redirect(url_for("rhome"))
     form = RecruterLoginFrom()
     if form.validate_on_submit():
         user = Ruser.query.filter_by(email=form.email.data).first()
         if user and bcrypt.check_password_hash(user.password, form.password.data):
             login_user(user)
-            return redirect(url_for('login'))
+            return redirect(url_for('rhome'))
         else:
             flash('Login Unsuccessful. Please check email and password', 'danger')
 
     return render_template('rlogin.html', form=form)
+
+
+@app.route('/recruiter-home', methods=["GET", "POST"])
+def rhome():
+    if request.method == 'POST':
+        tech = json.loads(request.data)
+        user = getUsers(tech)
+        # return jsonify({"skills": skills})
+    return render_template('rhome.html')

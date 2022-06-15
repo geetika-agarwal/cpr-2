@@ -1,0 +1,147 @@
+{% extends 'layout.html' %} {% block content %}
+<nav class="navbar navbar-expand-md navbar-light">
+  <a class="navbar-brand" href="{{url_for('home')}}"
+    ><img class="logo" src="../static/images/logo.png"
+  /></a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarToggler"
+    aria-controls="navbarToggler"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarToggler">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a href="{{url_for('aboutUs')}}" class="nav-link">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a
+          href="{{url_for('logout')}}"
+          class="nav-link modal-button"
+          style="color: #fff; padding: 1rem"
+          >Logout</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <h1 class="mainHeading">
+        <span style="color: #e16428">Career Path Recommendation</span><br />
+        <span style="color: #272121">using Machine Learning</span>
+      </h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <h3 class="form-text">
+        Select a
+        <span class="recc">Technology</span>
+        that you want to hire for
+      </h3>
+      <form>
+        <div class="form-group">
+          <label for="Technology"
+            >Choose a Job Role from the below drop down:&nbsp;</label
+          >
+          <select id="Technology" class="form-select">
+            <optgroup label="A">
+              <option value="Application Analyst">Application Analyst</option>
+              <option value="Application Developer">
+                Application Developer
+              </option>
+              <option value="Artificial Intelligence">
+                Artificial Intelligence
+              </option>
+            </optgroup>
+            <optgroup label="B">
+              <option value="Back-end Developer">Backend Developer</option>
+              <option value="BigData">Big Data</option>
+              <option value="Blockchain">Block Chain</option>
+            </optgroup>
+            <optgroup label="C">
+              <option value="Cloud Computing">Cloud Computing</option>
+              <option value="Computee Network Engineering">
+                Computee Network Engineering
+              </option>
+              <option value="Computer Hardware Engineering">
+                Computer Hardware Engineering
+              </option>
+              <option value="Cybersecurity">CyberSecurity</option>
+            </optgroup>
+            <optgroup label="D">
+              <option value="Data Analysis Engineering">
+                Data Analysis Engineering
+              </option>
+              <option value="Data Scientist">Data Scientist</option>
+              <option value="Devops">Devops</option>
+            </optgroup>
+            <optgroup label="E">
+              <option value="Edge Computing">Edge Computing</option>
+            </optgroup>
+            <optgroup label="F">
+              <option value="Frontend Developer">Front end Developer</option>
+              <option value="Full Stack Developmer">
+                Full Stack Development
+              </option>
+            </optgroup>
+            <optgroup label="G">
+              <option value="Game Designer">Game Designer</option>
+              <option value="Game Developer">Game Developer</option>
+            </optgroup>
+            <optgroup label="H">
+              <option value="Hyperautomation">Hyperautomation</option>
+            </optgroup>
+            <optgroup label="I">
+              <option value="Information Security Architect">
+                Information Security Architect
+              </option>
+              <option value="Internet of Behaviors">
+                Internet of Behaviors
+              </option>
+              <option value="Internet of Things">Internet Of Things</option>
+              <option value="IT Project Manager">IT Project Manager</option>
+            </optgroup>
+            <optgroup label="P">
+              <option value="Predictive Analytics">Predictive Analytics</option>
+            </optgroup>
+            <optgroup label="S">
+              <option value="Snowflake">Snowflake</option>
+              <option value="Software Engineering">Software Engineer</option>
+            </optgroup>
+            <optgroup label="U">
+              <option value="UX Designer">UX Designer</option>
+            </optgroup>
+            <optgroup label="V">
+              <option value="Virtual Reality and Augmented Reality">
+                Virtual Reality and Augmented Reality
+              </option>
+            </optgroup>
+            <optgroup label="W">
+              <option value="Web Designer">Web Designer</option>
+              <option value="Web Developer">Web Developer</option>
+            </optgroup>
+          </select>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script class="javascript">
+  function submitFunc() {
+    const xhr = new XMLHttpRequest();
+    tech = document.getElementById("Technology").value;
+    xhr.open("POST", "/recruiter-home");
+    xhr.send(JSON.stringify(tech));
+  }
+</script>
+{% endblock %}
