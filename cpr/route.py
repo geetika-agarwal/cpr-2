@@ -1,4 +1,5 @@
 import json
+from cpr.getSkills import getSkillsF
 from cpr.processPrecentage import processPer
 from flask import flash, redirect, render_template, url_for, request, jsonify
 from flask import session
@@ -235,8 +236,12 @@ def outputF():
         return render_template("output.html")
 
 
-@app.route('/get-to-know')
+@app.route('/get-to-know', methods=['GET', 'POST'])
 def getToKnow():
+    if request.method == 'POST':
+        jobole = json.loads(request.data)
+        skills = getSkillsF(jobole)
+        return jsonify({"skills": skills})
     return render_template('getToKnow.html')
 
 

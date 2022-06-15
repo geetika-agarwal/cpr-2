@@ -1,1 +1,368 @@
+{% extends 'layout.html' %} {% block content %}
+<nav class="navbar navbar-expand-md navbar-light">
+  <a class="navbar-brand" href="{{url_for('home')}}"
+    ><img class="logo" src="../static/images/logo.png"
+  /></a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarToggler"
+    aria-controls="navbarToggler"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+  <div class="collapse navbar-collapse" id="navbarToggler">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a href="{{url_for('home')}}" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="{{url_for('getStarted')}}" class="nav-link">Get Started</a>
+      </li>
+      <li class="nav-item active">
+        <a href="{{url_for('getToKnow')}}" class="nav-link">Get To Know</a>
+      </li>
+      <li class="nav-item">
+        <a href="{{url_for('aboutUs')}}" class="nav-link">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a
+          href="{{url_for('logout')}}"
+          class="nav-link modal-button"
+          style="color: #fff; padding: 1rem"
+          >Logout</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <h1 class="mainHeading">
+        <span style="color: #e16428">Career Path Recommendation</span><br />
+        <span style="color: #272121">using Machine Learning</span>
+      </h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <h3 class="form-text">
+        Select a
+        <span class="recc">Job Role</span>
+        that you want to gain knowledge about
+      </h3>
+    </div>
+  </div>
+  <div class="container">
+    <label for="Job Role" class="form-headings"
+      >Choose a Job Role from the below drop down:&nbsp;</label
+    >
+    <div class="row" style="padding: 1rem">
+      <select name="Job Role" id="JobRole" class="form-select">
+        <optgroup label="A">
+          <option value="AI Engineer">AI Engineer</option>
+          <option value="AI Researcher">AI Researcher</option>
+          <option value="AI/ Ml Engineer in Hyperautomation">
+            AI/ Ml Engineer in Hyperautomation
+          </option>
+          <option value="AI Engineer">AI Engineer</option>
+          <option value="AR/VR Designer">AR/VR Designer</option>
+          <option value="AR/VR project Manager">AR/VR project Manager</option>
+          <option value="AR/VR Software Developer">
+            AR/VR Software Developer
+          </option>
+        </optgroup>
+        <optgroup label="B">
+          <option value="Back-end Developer">Back-end Developer</option>
+          <option value="Back-end Engineer">Back-end Engineer</option>
+          <option value="Big Data developer">Big Data developer</option>
+          <option value="Big Data engineer">Big Data engineer</option>
+          <option value="Big Data Engineer in Artificial Intelligence">
+            Big Data Engineer in Artificial Intelligence
+          </option>
+          <option value="Big Data Tester">Big Data Tester</option>
+          <option value="Blockchain Developer">Blockchain Developer</option>
+          <option value="Blockchain Legal Consultant">
+            Blockchain Legal Consultant
+          </option>
+          <option value="Blockchain Project Manager">
+            Blockchain Project Manager
+          </option>
+          <option value="Blockchain Solution Architect">
+            Blockchain Solution Architect
+          </option>
+          <option value="Blockchain UX Architect">
+            Blockchain UX Architect
+          </option>
+          <option value="Business analyst">Business analyst</option>
+          <option value="Business Intelligence Developer">
+            Business Intelligence Developer
+          </option>
+        </optgroup>
+        <optgroup label="C">
+          <option value="Cheif Information Security Officier">
+            Cheif Information Security Officier
+          </option>
+          <option value="Chief Internet of Things Officer">
+            Chief Internet of Things Officer
+          </option>
+          <option value="Cloud Architect">Cloud Architect</option>
+          <option value="cloud data scientist">Cloud data scientist</option>
+          <option value="Cloud Database Administrator">
+            Cloud Database Administrator
+          </option>
+          <option value="cloud developer">Cloud developer</option>
+          <option value="cloud Networking engineer">
+            Cloud Networking engineer
+          </option>
+          <option value="Computer Forensics Analyst">
+            Computer Forensics Analyst
+          </option>
+          <option value="Computer Hardware Engineer">
+            Computer Hardware Engineer
+          </option>
+          <option value="Computer Network Architect">
+            Computer Network Architect
+          </option>
+          <option value="Computer Programmer">Computer Programmer</option>
+          <option value="Computer System Administrator">
+            Computer System Administrator
+          </option>
+          <option value="Computer System Analyst">
+            Computer System Analyst
+          </option>
+          <option value="Customer Support Analyst">
+            Customer Support Analyst
+          </option>
+          <option value="Cybersecurity Engineer">Cybersecurity Engineer</option>
+        </optgroup>
+        <optgroup label="D">
+          <option value="Data analyst for Application Analyst">
+            Data analyst for Application Analyst
+          </option>
+          <option value="Data analyst for Artificial Intelligence">
+            Data analyst for Artificial Intelligence
+          </option>
+          <option value="Data analyst for Data Analysis/ Engineering">
+            Data analyst for Data Analysis/ Engineering
+          </option>
+          <option value="Data Architect">Data Architect</option>
+          <option value="Data Consultant">Data Consultant</option>
+          <option value="Data Engineer">Data Engineer</option>
+          <option value="Data mining engineer">Data mining engineer</option>
+          <option value="Data Scientist ">Data Scientist</option>
+          <option value="Data scientists and analysts">
+            Data scientists and analysts
+          </option>
+          <option value="Database Administrator">Database Administrator</option>
+          <option value="DevOp Evangalist">DevOp Evangalist</option>
+          <option value="DevOps Cloud Engineer">DevOps Cloud Engineer</option>
+          <option value="DevOps Engineer">DevOps Engineer</option>
+          <option value="DevOps Release Manager">DevOps Release Manager</option>
+        </optgroup>
+        <optgroup label="E">
+          <option value="Edge Computing Analyst">Edge Computing Analyst</option>
+          <option value="Edge Computing Engineer">
+            Edge Computing Engineer
+          </option>
+        </optgroup>
+        <optgroup label="F">
+          <option value="Front-end Developer">Front-end Developer</option>
+          <option value="Front-end Developer for Web Developer">
+            Front-end Developer for Web Developer
+          </option>
+          <option value="Full Stack Web Developer">
+            Full Stack Web Developer
+          </option>
+        </optgroup>
+        <optgroup label="G">
+          <option value="Game artist">Game artist</option>
+          <option value="Game Designer">Game Designer</option>
+          <option value="Game tester">Game tester</option>
+          <option value="Graphic Designer">Graphic Designer</option>
+        </optgroup>
+        <optgroup label="H">
+          <option value="Hadoop Engineer">Hadoop Engineer</option>
+          <option value="Hyperautomation Architect">
+            Hyperautomation Architect
+          </option>
+        </optgroup>
+        <optgroup label="I">
+          <option value="Industrial Networking engineer">
+            Industrial Networking engineer
+          </option>
+          <option value="Industrial UI/UX designer">
+            Industrial UI/UX designer
+          </option>
+          <option value="Information Security Architect">
+            Information Security Architect
+          </option>
+          <option value="Internet of Behaviour Analyst">
+            Internet of Behaviour Analyst
+          </option>
+          <option value="IOS Developers">IOS Developers</option>
+          <option value="IOT Architect">IOT Architect</option>
+          <option value="IOT Software Engineer">IOT Software Engineer</option>
+          <option value="IT Operations Manager">IT Operations Manager</option>
+          <option value="IT Project Manager">IT Project Manager</option>
+          <option value="IT Security Consultant">IT Security Consultant</option>
+          <option value="IT Security Engineer">IT Security Engineer</option>
+        </optgroup>
+        <optgroup label="M">
+          <option value="Machine Learning Engineer">
+            Machine Learning Engineer
+          </option>
+          <option value="Malware Analyst">Malware Analyst</option>
+          <option value="Mobile App Developers">Mobile App Developers</option>
+          <option value="Mobile front-end developer">
+            Mobile front-end developer
+          </option>
+          <option value="MySQL Developer">MySQL Developer</option>
+        </optgroup>
+        <optgroup label="N">
+          <option value="Natural Language Processing Engineer">
+            Natural Language Processing Engineer
+          </option>
+        </optgroup>
+        <optgroup label="P">
+          <option value="Penetration Tester">Penetration Tester</option>
+          <option value="Postgre SQL">Postgre SQL</option>
+          <option value="Predictive Analyst">Predictive Analyst</option>
+          <option value="Predictive Modelling Role">
+            Predictive Modelling Role
+          </option>
+          <option value="Project Manager in Web Development">
+            Project Manager in Web Development
+          </option>
+        </optgroup>
+        <optgroup label="R">
+          <option value="RPA Developer">RPA Developer</option>
+        </optgroup>
+        <optgroup label="S">
+          <option value="Security Analyst for Cloud Computing">
+            Security Analyst for Cloud Computing
+          </option>
+          <option value="Security Analyst for Information Security Analyst">
+            Security Analyst for Information Security Analyst
+          </option>
+          <option value="Senior IT Project Manager">
+            Senior IT Project Manager
+          </option>
+          <option value="Snowflake Developer">Snowflake Developer</option>
+          <option value="Software Developer">Software Developer</option>
+          <option value="Software Engineer">Software Engineer</option>
+          <option value="SQL Developer">SQL Developer</option>
+          <option value="System analyst for Application Analyst">
+            System analysts for Application Analyst
+          </option>
+          <option value="Systems analyst for Application Developer">
+            Systems analyst for Application Developer
+          </option>
+        </optgroup>
+        <optgroup label="T">
+          <option value="The (quality) tester">The (quality) tester</option>
+        </optgroup>
+        <optgroup label="U">
+          <option value="UI Designer">UI Designer</option>
+          <option value="UX Design lead">UX Design lead</option>
+          <option value="UX designer for Web Designer">
+            UX designer for Web Designer
+          </option>
+          <option value="UX designer for Web Developer">
+            UX designer for Web Developer
+          </option>
+          <option value="UX Researcher">UX Researcher</option>
+          <option value="UX specialists">UX specialists</option>
+        </optgroup>
+        <optgroup label="V">
+          <option value="Video game programmer">Video game programmer</option>
+        </optgroup>
+        <optgroup label="W">
+          <option value="Web Architect">Web Architect</option>
+          <option value="Web designers">Web designers</option>
+        </optgroup>
+      </select>
+      <div class="getToKnow-submit-wrapper">
+        <input
+          type="submit"
+          class="modal-button"
+          onclick="submitFunc()"
+          style="margin-bottom: 1rem"
+        />
+      </div>
+      <br />
+      <div class="row">
+        <div class="skills-desc"></div>
+        <ul class="skills-list"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script class="javascript">
+    function submitFunc() {
+      const xhr = new XMLHttpRequest();
+      jobrole = document.getElementById("JobRole").value;
+      xhr.open("POST", "/get-to-know");
+      xhr.send(JSON.stringify(jobrole));
+
+      xhr.onload = function () {
+        var skills = JSON.parse(xhr.responseText);
+        skillsArray = skills.skills;
+        technology = skillsArray[17];
+        description = skillsArray[18];
+        jobrole = skillsArray[15];
+        skillsOnly = skillsArray.splice(0, 15);
+        var skillsFiltered = skillsOnly.filter(function (
+          value,
+          index,
+          skillsArray
+        ) {
+          return value != "";
+        });
+        var skillSet = new Set(skillsFiltered);
+        var descBody = document.getElementsByClassName("skills-desc")[0];
+        var skillsBody = document.getElementsByClassName("skills-list")[0];
+        descBody.innerHTML = `
+          <div >
+            <h2 class="desc-heading">Technology: </h2>
+          </div>
+          <div>
+            <h3 class="desc-elements">${technology}
+            </h3>
+          </div>
+          <div >
+            <h2 class="desc-heading">Job Role: </h2>
+          </div>
+          <div >
+            <h4 class="desc-elements">${jobrole}</h4>
+          </div>
+          <div class="col-lg-12">
+            <h2 class="desc-heading">Description: </h2>
+          </div>
+          <div class="col-lg-12">
+            <h4 class="desc-elements">${description}</h4>
+          </div>
+          <div class="col-lg-12">
+            <h1 class="desc-heading">Skills Required: </h1>
+          </div>
+        `;
+        var itr = skillSet.values();
+        skillsBody.innerHTML = "";
+        for (var i = 0; i < skillSet.size; i++) {
+          skillsBody.innerHTML += `<li><h4>${itr
+            .next()
+            .value.toUpperCase()}</h4></li>`;
+        }
+      };
+    }
+  </script>
+</section>
+
+{% endblock %}

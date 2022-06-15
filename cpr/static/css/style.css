@@ -418,8 +418,6 @@ section {
 
 /*================================ Home Page ================================*/
 
-.card-container {}
-
 .home-card {
   background-color: #ECB390;
   height: 45vh;
@@ -446,4 +444,31 @@ section {
 .home-card-button {
   height: 7vh;
   margin-top: 2rem;
+}
+
+#JobRole {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.getToKnow-submit-wrapper {
+  text-align: right;
+  width: 100%;
+  height: 50px;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+}
+
+.desc-heading {
+  font-family: "Libre Caslon Text";
+  text-decoration: underline #272121;
+  color: #E16428;
+  text-shadow: #272121;
+  padding-left: 5px;
+}
+
+.desc-elements {
+  font-family: "Work Sans";
+  padding-left: 1.5rem;
 }
