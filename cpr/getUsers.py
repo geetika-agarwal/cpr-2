@@ -1,9 +1,10 @@
-from cpr.models import Tech,User
+from cpr.models import Tech, User
+
 
 def getUsers(tech):
-    
-    l=[]
-    d={}
+
+    l = []
+    d = {}
     if(Tech.query.filter(Tech.tech1 == tech).all() != None):
         for i in Tech.query.filter(Tech.tech1 == tech).all():
             l.append(User.query.filter_by(id=i.user_id).first())
@@ -34,12 +35,11 @@ def getUsers(tech):
     if (Tech.query.filter(Tech.tech10 == tech).all() != None):
         for i in Tech.query.filter(Tech.tech10 == tech).all():
             l.append(User.query.filter_by(id=i.user_id).first())
-    if l==[]:
-        return []
-    else :
+
+    if l == []:
+        return d
+    else:
         for i in l:
-             d[i.email] = i.username
+            d[i.email] = i.username
 
-
-    return d  
-
+    return d

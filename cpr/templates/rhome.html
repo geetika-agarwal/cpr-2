@@ -47,105 +47,95 @@
         <span class="recc">Technology</span>
         that you want to hire for
       </h3>
-      <form>
-        <div class="form-group">
-          <label for="Technology"
-            >Choose a Job Role from the below drop down:&nbsp;</label
-          >
-          <select id="Technology" class="form-select">
-            <optgroup label="A">
-              <option value="Application Analyst">Application Analyst</option>
-              <option value="Application Developer">
-                Application Developer
-              </option>
-              <option value="Artificial Intelligence">
-                Artificial Intelligence
-              </option>
-            </optgroup>
-            <optgroup label="B">
-              <option value="Back-end Developer">Backend Developer</option>
-              <option value="BigData">Big Data</option>
-              <option value="Blockchain">Block Chain</option>
-            </optgroup>
-            <optgroup label="C">
-              <option value="Cloud Computing">Cloud Computing</option>
-              <option value="Computee Network Engineering">
-                Computee Network Engineering
-              </option>
-              <option value="Computer Hardware Engineering">
-                Computer Hardware Engineering
-              </option>
-              <option value="Cybersecurity">CyberSecurity</option>
-            </optgroup>
-            <optgroup label="D">
-              <option value="Data Analysis Engineering">
-                Data Analysis Engineering
-              </option>
-              <option value="Data Scientist">Data Scientist</option>
-              <option value="Devops">Devops</option>
-            </optgroup>
-            <optgroup label="E">
-              <option value="Edge Computing">Edge Computing</option>
-            </optgroup>
-            <optgroup label="F">
-              <option value="Frontend Developer">Front end Developer</option>
-              <option value="Full Stack Developmer">
-                Full Stack Development
-              </option>
-            </optgroup>
-            <optgroup label="G">
-              <option value="Game Designer">Game Designer</option>
-              <option value="Game Developer">Game Developer</option>
-            </optgroup>
-            <optgroup label="H">
-              <option value="Hyperautomation">Hyperautomation</option>
-            </optgroup>
-            <optgroup label="I">
-              <option value="Information Security Architect">
-                Information Security Architect
-              </option>
-              <option value="Internet of Behaviors">
-                Internet of Behaviors
-              </option>
-              <option value="Internet of Things">Internet Of Things</option>
-              <option value="IT Project Manager">IT Project Manager</option>
-            </optgroup>
-            <optgroup label="P">
-              <option value="Predictive Analytics">Predictive Analytics</option>
-            </optgroup>
-            <optgroup label="S">
-              <option value="Snowflake">Snowflake</option>
-              <option value="Software Engineering">Software Engineer</option>
-            </optgroup>
-            <optgroup label="U">
-              <option value="UX Designer">UX Designer</option>
-            </optgroup>
-            <optgroup label="V">
-              <option value="Virtual Reality and Augmented Reality">
-                Virtual Reality and Augmented Reality
-              </option>
-            </optgroup>
-            <optgroup label="W">
-              <option value="Web Designer">Web Designer</option>
-              <option value="Web Developer">Web Developer</option>
-            </optgroup>
-          </select>
-        </div>
-      </form>
 
-      <div class="submit-wrapper mt-4 ml-2 pt-2">
-        <input type="submit" class="modal-button  " onclick="submitFunc()" style="margin-bottom: 2rem;" />
+      <label for="Technology"
+        >Choose a Job Role from the below drop down:&nbsp;</label
+      >
+      <select id="Technology" class="form-select">
+        <optgroup label="A">
+          <option value="Application Analyst">Application Analyst</option>
+          <option value="Application Developer">Application Developer</option>
+          <option value="Artificial Intelligence">
+            Artificial Intelligence
+          </option>
+        </optgroup>
+        <optgroup label="B">
+          <option value="Back-end Developer">Backend Developer</option>
+          <option value="BigData">Big Data</option>
+          <option value="Blockchain">Block Chain</option>
+        </optgroup>
+        <optgroup label="C">
+          <option value="Cloud Computing">Cloud Computing</option>
+          <option value="Computee Network Engineering">
+            Computee Network Engineering
+          </option>
+          <option value="Computer Hardware Engineering">
+            Computer Hardware Engineering
+          </option>
+          <option value="Cybersecurity">CyberSecurity</option>
+        </optgroup>
+        <optgroup label="D">
+          <option value="Data Analysis Engineering">
+            Data Analysis Engineering
+          </option>
+          <option value="Data Scientist">Data Scientist</option>
+          <option value="Devops">Devops</option>
+        </optgroup>
+        <optgroup label="E">
+          <option value="Edge Computing">Edge Computing</option>
+        </optgroup>
+        <optgroup label="F">
+          <option value="Frontend Developer">Front end Developer</option>
+          <option value="Full Stack Developmer">Full Stack Development</option>
+        </optgroup>
+        <optgroup label="G">
+          <option value="Game Designer">Game Designer</option>
+          <option value="Game Developer">Game Developer</option>
+        </optgroup>
+        <optgroup label="H">
+          <option value="Hyperautomation">Hyperautomation</option>
+        </optgroup>
+        <optgroup label="I">
+          <option value="Information Security Architect">
+            Information Security Architect
+          </option>
+          <option value="Internet of Behaviors">Internet of Behaviors</option>
+          <option value="Internet of Things">Internet Of Things</option>
+          <option value="IT Project Manager">IT Project Manager</option>
+        </optgroup>
+        <optgroup label="P">
+          <option value="Predictive Analytics">Predictive Analytics</option>
+        </optgroup>
+        <optgroup label="S">
+          <option value="Snowflake">Snowflake</option>
+          <option value="Software Engineering">Software Engineer</option>
+        </optgroup>
+        <optgroup label="U">
+          <option value="UX Designer">UX Designer</option>
+        </optgroup>
+        <optgroup label="V">
+          <option value="Virtual Reality and Augmented Reality">
+            Virtual Reality and Augmented Reality
+          </option>
+        </optgroup>
+        <optgroup label="W">
+          <option value="Web Designer">Web Designer</option>
+          <option value="Web Developer">Web Developer</option>
+        </optgroup>
+      </select>
+
+      <br />
+      <div class="getToKnow-submit-wrapper">
+        <input
+          type="submit"
+          class="modal-button"
+          onclick="submitFunc()"
+          style="margin-bottom: 1rem"
+        />
       </div>
     </div>
-    
+    <div class="row result-body">
   </div>
-  
-
-
-
-
-
-
 </section>
 
 <script class="javascript">
@@ -155,11 +145,24 @@
     xhr.open("POST", "/recruiter-home");
     xhr.send(JSON.stringify(tech));
     xhr.onload = function () {
-      var skills = JSON.parse(xhr.responseText);
-      var keys=Object.keys(skills);
-      
+      var resultBody = document.getElementsByClassName("result-body")[0];
+      var users = JSON.parse(xhr.responseText);
+      console.log(Object.keys(users).length);
+      if (Object.keys(users).length == 0) {
+        resultBody.innerHTML = `
+          <h4 class="sorry-message">Sorry, there is no user with ${tech} knowledge</h4>
+        `
+      } else {
+        resultBody.innerHTML = "";
+        resultBody.innerHTML = `<h3 class='sorry-message'>The below are the user with the ${tech} knowledge</h3>`;
+        for (const [key, value] of Object.entries(users)) {
+        resultBody.innerHTML += `<br />
+          <h4 style="font-family: 'IBM Plex Mono'"><li>Name: ${value} <br /> Email: ${key}</li></h4>
+        `
+      }
+      }
+    };
   }
-}
 </script>
 
 {% endblock %}

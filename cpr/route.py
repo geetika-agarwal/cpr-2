@@ -11,6 +11,8 @@ from cpr.models import User, Ruser, Tech
 from flask_login import login_user, current_user, logout_user
 
 global user
+
+
 @app.route("/")
 def hero():
     return render_template('index.html')
@@ -287,15 +289,12 @@ def rlogin():
     return render_template('rlogin.html', form=form)
 
 
-                                                                                
-
 @app.route('/recruiter-home', methods=["GET", "POST"])
 def rhome():
     if request.method == 'POST':
         tech = json.loads(request.data)
-        print(tech)   
+        print(tech)
         user = getUsers(tech)
-        return user
+        return jsonify(user)
 
-        
     return render_template('rhome.html')

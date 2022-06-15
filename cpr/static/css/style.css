@@ -478,3 +478,10 @@ section {
   height: 40px;
   border-radius: 5px;
 }
+
+.sorry-message {
+  text-align: center;
+  margin: 2rem auto;
+  font-family: "Work Sans";
+  font-weight: normal;
+}
