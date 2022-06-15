@@ -10,7 +10,7 @@ from cpr.form import RegistrationFrom, LoginFrom, RecruterLoginFrom, RecruterReg
 from cpr.models import User, Ruser, Tech
 from flask_login import login_user, current_user, logout_user
 
-
+global user
 @app.route("/")
 def hero():
     return render_template('index.html')
@@ -63,7 +63,7 @@ def aboutUs():
 def getStarted():
     if(request.method == 'POST'):
         allSkills = json.loads(request.data)
-        email = email = allSkills['user']
+        email = allSkills['user']
         tech = allSkills['itechno']
         allSkills1 = allSkills['tskills']
         dictTech = processSkills.processSkillsFunct(allSkills1)
@@ -287,10 +287,15 @@ def rlogin():
     return render_template('rlogin.html', form=form)
 
 
+                                                                                
+
 @app.route('/recruiter-home', methods=["GET", "POST"])
 def rhome():
     if request.method == 'POST':
         tech = json.loads(request.data)
+        print(tech)   
         user = getUsers(tech)
-        # return jsonify({"skills": skills})
+        return user
+
+        
     return render_template('rhome.html')
