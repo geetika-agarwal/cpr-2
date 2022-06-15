@@ -132,16 +132,20 @@
           </select>
         </div>
       </form>
-      <div class="getToKnow-submit-wrapper">
-        <input
-          type="submit"
-          class="modal-button"
-          onclick="submitFunc()"
-          style="margin-bottom: 1rem"
-        />
+
+      <div class="submit-wrapper mt-4 ml-2 pt-2">
+        <input type="submit" class="modal-button  " onclick="submitFunc()" style="margin-bottom: 2rem;" />
       </div>
     </div>
+    
   </div>
+  
+
+
+
+
+
+
 </section>
 
 <script class="javascript">
@@ -150,6 +154,12 @@
     tech = document.getElementById("Technology").value;
     xhr.open("POST", "/recruiter-home");
     xhr.send(JSON.stringify(tech));
+    xhr.onload = function () {
+      var skills = JSON.parse(xhr.responseText);
+      var keys=Object.keys(skills);
+      
   }
+}
 </script>
+
 {% endblock %}
